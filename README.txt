@@ -1,12 +1,12 @@
 ﻿================================================================================
    BLUE BEES  --  ARK: Survival Ascended
-   Status dos servidores oficiais + Codex do jogo
+   Official server status + in-game Codex
 ================================================================================
 
    1. English      3. Espanol      5. Deutsch      7. Nihongo
    2. Portugues    4. Francais     6. Polski       8. Zhongwen
 
-   Fontes de dados e licencas: no fim deste arquivo.
+   Data sources and licences: at the end of this file.
 
 
 --------------------------------------------------------------------------------
