@@ -44,6 +44,10 @@ Normal on the first run. It happens to any program without a paid certificate
 and does not mean the file is infected. Click "More info", then "Run anyway".
 It only shows once.
 
+Do not turn off your antivirus and do not add exclusions to get it to run.
+That weakens the machine and can break other programs, including game
+anti-cheats.
+
 ABOUT THE "OFFLINE" STATUS
 The official list only shows servers that are up -- one that goes down simply
 disappears from it. Blue Bees remembers every server it has seen, which is how
@@ -101,6 +105,10 @@ nada, nem o .NET.
 E normal na primeira vez. Acontece com qualquer programa sem certificado
 digital comprado, e nao significa que o arquivo esteja infectado. Clique em
 "Mais informacoes" e depois em "Executar assim mesmo". So aparece uma vez.
+
+Nao desligue o antivirus nem crie excecoes para conseguir abrir. Isso
+enfraquece a maquina e pode quebrar outros programas, inclusive anticheat
+de jogo.
 
 SOBRE O STATUS "OFFLINE"
 A lista oficial so mostra quem esta no ar -- quem cai simplesmente some dela.
@@ -162,6 +170,10 @@ nada, ni siquiera .NET.
 Es normal la primera vez. Le pasa a cualquier programa sin certificado digital
 de pago y no significa que el archivo este infectado. Pulsa "Mas informacion"
 y luego "Ejecutar de todas formas". Solo aparece una vez.
+
+No desactives el antivirus ni anadas exclusiones para poder abrirlo. Eso
+debilita el equipo y puede romper otros programas, incluidos los anti-cheat
+de juegos.
 
 SOBRE EL ESTADO "OFFLINE"
 La lista oficial solo muestra los servidores que estan en linea -- el que se
@@ -225,6 +237,10 @@ Normal au premier lancement. Cela arrive a tout programme sans certificat
 numerique payant et ne veut pas dire que le fichier est infecte. Cliquez sur
 "Informations complementaires" puis "Executer quand meme". Une seule fois.
 
+Ne desactivez pas l'antivirus et n'ajoutez pas d'exclusions pour le lancer.
+Cela affaiblit la machine et peut casser d'autres programmes, y compris les
+anti-triche de jeux.
+
 A PROPOS DU STATUT "HORS LIGNE"
 La liste officielle ne montre que les serveurs en ligne -- celui qui tombe en
 disparait simplement. Blue Bees se souvient de tous les serveurs vus, et c'est
@@ -285,6 +301,10 @@ Beim ersten Start normal. Das passiert jedem Programm ohne gekauftes digitales
 Zertifikat und bedeutet nicht, dass die Datei infiziert ist. Auf "Weitere
 Informationen" und dann "Trotzdem ausfuehren" klicken. Erscheint nur einmal.
 
+Schalte das Antivirenprogramm nicht ab und lege keine Ausnahmen an, um es zu
+starten. Das schwaecht den Rechner und kann andere Programme stoeren, auch
+Spiele-Anti-Cheats.
+
 ZUM STATUS "OFFLINE"
 Die offizielle Liste zeigt nur Server, die online sind -- wer ausfaellt,
 verschwindet einfach daraus. Blue Bees merkt sich jeden gesehenen Server, und
@@ -344,6 +364,9 @@ Normalne przy pierwszym uruchomieniu. Zdarza sie kazdemu programowi bez
 platnego certyfikatu i nie oznacza, ze plik jest zainfekowany. Kliknij "Wiecej
 informacji", potem "Uruchom mimo to". Pojawia sie tylko raz.
 
+Nie wylaczaj antywirusa i nie dodawaj wyjatkow, zeby go uruchomic. To oslabia
+komputer i moze zepsuc inne programy, w tym anti-cheaty w grach.
+
 O STATUSIE "OFFLINE"
 Oficjalna lista pokazuje tylko serwery online -- ten, ktory padnie, po prostu
 z niej znika. Blue Bees pamieta kazdy widziany serwer i dlatego moze
@@ -398,6 +421,10 @@ Blue Bees は ARK: Survival Ascended の公式サーバーを追跡し、オフ�
 ファイルが感染しているという意味ではありません。「詳細情報」から「実行」を
 選んでください。表示は一度きりです。
 
+起動させるためにウイルス対策を無効にしたり除外設定を追加したりしないで
+ください。PC の安全性が下がり、ゲームのアンチチートなど他のプログラムが
+動かなくなることがあります。
+
 「オフライン」表示について
 公式リストには稼働中のサーバーしか載りません。落ちたサーバーは単に消えます。
 Blue Bees は見たことのあるサーバーをすべて記憶しているので、消えたことを
@@ -448,6 +475,9 @@ Codex。本程序非官方，与 Studio Wildcard 无关。
 “WINDOWS 已保护你的电脑”
 首次运行时属正常。任何没有付费数字证书的程序都会出现，并不表示文件被感染。
 点击“更多信息”，再点“仍要运行”。只会出现一次。
+
+不要为了运行它而关闭杀毒软件或添加排除项。这会削弱电脑的防护，并可能导致
+其他程序失效，包括游戏的反作弊组件。
 
 关于“离线”状态
 官方列表只显示在线的服务器 -- 掉线的会直接从列表中消失。Blue Bees 记住见过

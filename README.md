@@ -11,6 +11,17 @@ Grab it from **[Releases](../../releases/latest)** — the file is
 Inside is a single executable: no installer, no dependencies. Unzip it anywhere
 and run it. The app tells you on its own when a new version is out.
 
+### "Windows protected your PC"
+
+Expect this on the first run. It happens to any program without a paid code
+signing certificate and does not mean the file is infected. Click **More info**,
+then **Run anyway**. It only shows once.
+
+**Do not turn off your antivirus and do not add exclusions to get it to run.**
+That weakens the machine and can break other programs — game anti-cheats in
+particular are strict about the security state of Windows, and loosening it to
+launch one app can stop a game from starting.
+
 The "Source code" archives that GitHub attaches to every release contain only
 this distribution repository — README, licence and notices. The application's
 source code is not here.
