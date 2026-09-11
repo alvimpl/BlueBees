@@ -23,18 +23,26 @@ Studio Wildcard.
 
    Codex        Works offline: everything is embedded in the program.
 
-                Creatures    528 creatures with a taming calculator -- how
+                Creatures    795 creatures with a taming calculator -- how
                              much food, how long, how many narcotics, and what
                              it takes to knock one out. Variants live inside
-                             the base creature, so the list shows 265 rows.
-                             Breeding times, egg temperature and saddle too.
-                Recipes      1,132 crafting recipes. The search finds a recipe
+                             the base creature, so the list shows 467 rows.
+                             Breeding times, egg temperature, saddle, and what
+                             each creature gathers well.
+                Recipes      1,138 crafting recipes. The search finds a recipe
                              by its ingredients as well.
                 Maturation   A raising planner for 124 creatures: when the
                              baby hatches, turns juvenile and grows up, in
                              clock time -- plus how much food it eats and how
                              long you must hand-feed it.
+                Trough       Several babies around full troughs: how long the
+                             food lasts, with a separate time for each diet.
+                Art          A trade card for a creature, 1200x630, with its
+                             colours and stats, ready to post on Discord.
                 Traits       29 creature traits and 20 equipment traits.
+                Gathering    Pick a resource and see who harvests it best --
+                             creatures and tools in the same list.
+                Artifacts    The 24 cave artifacts, with picture and name.
 
 HOW TO USE
 Unzip anywhere and run BlueBees.exe. Nothing to install, not even .NET.
@@ -84,18 +92,26 @@ com a Studio Wildcard.
 
    Codex        Funciona offline: vai tudo embutido no programa.
 
-                Criaturas    528 criaturas com calculadora de doma -- quanta
+                Criaturas    795 criaturas com calculadora de doma -- quanta
                              comida, quanto tempo, quantos narcoticos e o que
                              derruba cada uma. As variantes moram dentro da
-                             criatura base, entao a lista mostra 265 linhas.
-                             Tambem traz reproducao, temperatura do ovo e sela.
-                Receitas     1.132 receitas de fabricacao. A busca acha a
+                             criatura base, entao a lista mostra 467 linhas.
+                             Tambem traz reproducao, temperatura do ovo, sela e
+                             o que cada criatura colhe bem.
+                Receitas     1.138 receitas de fabricacao. A busca acha a
                              receita pelo ingrediente tambem.
                 Maturacao    Planejador de criacao para 124 criaturas: a que
                              horas o filhote nasce, vira juvenil e fica adulto
                              -- em hora de relogio -- alem de quanta comida ele
                              come e ate quando voce precisa alimentar na mao.
+                Cocho        Varios filhotes em volta de cochos cheios: quanto
+                             tempo a comida dura, com um tempo por dieta.
+                Artes        A arte de negociacao de um dino, 1200x630, com as
+                             cores e o status, pronta para postar no Discord.
                 Traits       29 traits de criatura e 20 de equipamento.
+                Coleta       Escolha um recurso e veja quem o colhe melhor --
+                             criatura e ferramenta na mesma lista.
+                Artefatos    Os 24 artefatos de caverna, com imagem e nome.
 
 COMO USAR
 Descompacte em qualquer lugar e execute BlueBees.exe. Nao precisa instalar
@@ -147,20 +163,27 @@ Studio Wildcard.
 
    Codex        Funciona sin conexion: todo va incrustado en el programa.
 
-                Criaturas    528 criaturas con calculadora de doma -- cuanta
+                Criaturas    795 criaturas con calculadora de doma -- cuanta
                              comida, cuanto tiempo, cuantos narcoticos y que
                              hace falta para derribarla. Las variantes viven
                              dentro de la criatura base, asi que la lista
-                             muestra 265 filas. Tambien cria, temperatura del
-                             huevo y silla.
-                Recetas      1.132 recetas de fabricacion. La busqueda tambien
+                             muestra 467 filas. Tambien cria, temperatura del
+                             huevo, silla y que recolecta bien cada una.
+                Recetas      1.138 recetas de fabricacion. La busqueda tambien
                              encuentra la receta por su ingrediente.
                 Maduracion   Planificador de cria para 124 criaturas: a que
                              hora nace la cria, pasa a juvenil y se hace
                              adulta -- en hora de reloj -- ademas de cuanta
                              comida consume y hasta cuando hay que alimentarla
                              a mano.
+                Comedero     Varias crias alrededor de comederos llenos:
+                             cuanto dura la comida, con un tiempo por dieta.
+                Arte         La tarjeta de intercambio de una criatura,
+                             1200x630, con sus colores y sus stats.
                 Traits       29 traits de criatura y 20 de equipo.
+                Recoleccion  Elige un recurso y mira quien lo recolecta mejor
+                             -- criaturas y herramientas en la misma lista.
+                Artefactos   Los 24 artefactos de cueva, con imagen y nombre.
 
 COMO USAR
 Descomprime en cualquier sitio y ejecuta BlueBees.exe. No hay que instalar
@@ -212,21 +235,28 @@ lien avec Studio Wildcard.
 
    Codex        Fonctionne hors ligne : tout est embarque dans le programme.
 
-                Creatures    528 creatures avec calculateur d'apprivoisement
+                Creatures    795 creatures avec calculateur d'apprivoisement
                              -- combien de nourriture, combien de temps,
                              combien de narcotiques et ce qu'il faut pour
                              l'assommer. Les variantes vivent dans la creature
-                             de base, la liste affiche donc 265 lignes. Aussi
-                             la reproduction, la temperature de l'oeuf et la
-                             selle.
-                Recettes     1 132 recettes de fabrication. La recherche
+                             de base, la liste affiche donc 467 lignes. Aussi
+                             la reproduction, la temperature de l'oeuf, la
+                             selle et ce que chaque creature recolte bien.
+                Recettes     1 138 recettes de fabrication. La recherche
                              trouve aussi une recette par son ingredient.
                 Maturation   Planificateur d'elevage pour 124 creatures :
                              a quelle heure le bebe eclot, devient juvenile et
                              adulte -- en heure reelle -- ainsi que la
                              nourriture consommee et jusqu'a quand le nourrir
                              a la main.
+                Auge         Plusieurs bebes autour d'auges pleines : combien
+                             de temps dure la nourriture, un temps par regime.
+                Art          La carte d'echange d'une creature, 1200x630, avec
+                             ses couleurs et ses stats.
                 Traits       29 traits de creature et 20 d'equipement.
+                Recolte      Choisissez une ressource et voyez qui la recolte
+                             le mieux -- creatures et outils dans une liste.
+                Artefacts    Les 24 artefacts de grotte, image et nom.
 
 UTILISATION
 Decompressez n'importe ou et lancez BlueBees.exe. Rien a installer, pas meme
@@ -279,18 +309,26 @@ offiziell und steht in keiner Verbindung zu Studio Wildcard.
 
    Codex        Funktioniert offline: alles ist im Programm eingebettet.
 
-                Kreaturen    528 Kreaturen mit Zaehmungsrechner -- wie viel
+                Kreaturen    795 Kreaturen mit Zaehmungsrechner -- wie viel
                              Futter, wie lange, wie viele Narkotika und was
                              sie umhaut. Varianten stecken in der
-                             Basiskreatur, die Liste zeigt daher 265 Zeilen.
-                             Auch Zucht, Ei-Temperatur und Sattel.
-                Rezepte      1.132 Herstellungsrezepte. Die Suche findet ein
+                             Basiskreatur, die Liste zeigt daher 467 Zeilen.
+                             Auch Zucht, Ei-Temperatur, Sattel und was jede
+                             Kreatur gut sammelt.
+                Rezepte      1.138 Herstellungsrezepte. Die Suche findet ein
                              Rezept auch ueber seine Zutat.
                 Reifung      Aufzuchtplaner fuer 124 Kreaturen: wann das Baby
                              schluepft, zum Jungtier wird und erwachsen ist --
                              als Uhrzeit -- dazu wie viel Futter es frisst und
                              bis wann von Hand gefuettert werden muss.
+                Trog         Mehrere Babys an vollen Troegen: wie lange das
+                             Futter reicht, mit einer Zeit pro Ernaehrung.
+                Grafiken     Die Handelskarte einer Kreatur, 1200x630, mit
+                             ihren Farben und Werten.
                 Traits       29 Kreatur-Traits und 20 Ausruestungs-Traits.
+                Sammeln      Waehle eine Ressource und sieh, wer sie am besten
+                             sammelt -- Kreaturen und Werkzeuge in einer Liste.
+                Artefakte    Die 24 Hoehlenartefakte, mit Bild und Namen.
 
 BENUTZUNG
 Irgendwohin entpacken und BlueBees.exe starten. Nichts zu installieren, auch
@@ -342,18 +380,26 @@ Wildcard.
 
    Codex        Dziala bez internetu: wszystko jest wbudowane w program.
 
-                Stworzenia   528 stworzen z kalkulatorem oswajania -- ile
+                Stworzenia   795 stworzen z kalkulatorem oswajania -- ile
                              jedzenia, jak dlugo, ile narkotykow i czym je
                              ogluszyc. Warianty mieszkaja wewnatrz stworzenia
-                             bazowego, wiec lista pokazuje 265 wierszy.
-                             Takze rozmnazanie, temperatura jaja i siodlo.
-                Receptury    1132 receptury wytwarzania. Wyszukiwarka znajduje
+                             bazowego, wiec lista pokazuje 467 wierszy.
+                             Takze rozmnazanie, temperatura jaja, siodlo i co
+                             kazde stworzenie dobrze zbiera.
+                Receptury    1138 receptur wytwarzania. Wyszukiwarka znajduje
                              recepture rowniez po skladniku.
                 Dojrzewanie  Planer hodowli dla 124 stworzen: o ktorej mlode
                              sie wykluwa, staje sie mlodym i doroslym -- w
                              czasie zegarowym -- ile zjada i do kiedy trzeba
                              karmic z reki.
+                Koryto       Kilka mlodych przy pelnych korytach: na jak dlugo
+                             starczy jedzenia, z czasem dla kazdej diety.
+                Grafiki      Karta wymiany stworzenia, 1200x630, z jego
+                             kolorami i statystykami.
                 Traity       29 traitow stworzen i 20 wyposazenia.
+                Zbieranie    Wybierz surowiec i zobacz, kto zbiera go najlepiej
+                             -- stworzenia i narzedzia na jednej liscie.
+                Artefakty    24 artefakty jaskiniowe, z obrazkiem i nazwa.
 
 JAK UZYWAC
 Rozpakuj gdziekolwiek i uruchom BlueBees.exe. Nic nie trzeba instalowac, nawet
@@ -402,15 +448,24 @@ Blue Bees は ARK: Survival Ascended の公式サーバーを追跡し、オフ�
 
    Codex        オフラインで動作します。すべてプログラムに同梱。
 
-                生物         528種とテイム計算機 -- 餌の量、所要時間、麻酔の
+                生物         795種とテイム計算機 -- 餌の量、所要時間、麻酔の
                              数、気絶させる手段。変種は元の生物の中に収まる
-                             ので一覧は265行です。繁殖、卵の温度、サドルも。
-                レシピ       1,132件の製作レシピ。材料からレシピを探すことも
+                             ので一覧は467行です。繁殖、卵の温度、サドル、
+                             そして採集が得意な資源も。
+                レシピ       1,138件の製作レシピ。材料からレシピを探すことも
                              できます。
                 成長         124種の育成プランナー。孵化・幼年期後・成体に
                              なる時刻を実時刻で示し、必要な餌の量と手渡しで
                              与える必要がある時間もわかります。
+                飼い葉桶     満杯の飼い葉桶と複数の幼体。餌が何時間もつかを、
+                             食性ごとに分けて示します。
+                アート       生物の取引用カード（1200x630）。色とステータス
+                             入りで、そのまま投稿できます。
                 Traits       生物29種、装備20種。
+                採集         資源を選ぶと、それを最も効率よく集める生物と
+                             道具が同じ一覧に並びます。
+                アーティファクト
+                             洞窟のアーティファクト24種を画像と名前で。
 
 使い方
 好きな場所に解凍して BlueBees.exe を実行してください。.NET を含め、何も
@@ -459,15 +514,22 @@ Codex。本程序非官方，与 Studio Wildcard 无关。
 
    Codex        离线可用：全部内置于程序中。
 
-                生物         528 个生物，含驯服计算器 -- 需要多少食物、多长
+                生物         795 个生物，含驯服计算器 -- 需要多少食物、多长
                              时间、多少麻醉剂，以及用什么击昏。变种收在基础
-                             生物内，因此列表显示 265 行。还有繁殖、孵蛋温度
-                             和鞍。
-                配方         1,132 个制作配方。搜索也能按材料找到配方。
+                             生物内，因此列表显示 467 行。还有繁殖、孵蛋温度、
+                             鞍，以及每个生物擅长采集什么。
+                配方         1,138 个制作配方。搜索也能按材料找到配方。
                 成长         124 个生物的养育规划：幼体出生、过幼年期和成年
                              的时刻，以实际时间显示，并给出食物用量和需要手
                              动喂食多久。
+                饲料槽       多个幼体围着装满的饲料槽：食物能撑多久，按食性
+                             分别给出时间。
+                美术         生物的交易卡片（1200x630），带颜色和属性，可直接
+                             发到 Discord。
                 Traits       生物 29 项，装备 20 项。
+                采集         选一种资源，看谁采得最好 -- 生物和工具在同一个
+                             列表里。
+                神器         24 个洞穴神器，附图片和名称。
 
 使用方法
 解压到任意位置后运行 BlueBees.exe。无需安装任何东西，包括 .NET。

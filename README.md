@@ -31,8 +31,8 @@ source code is not here.
 - **Servers** — the live ASA official servers, with filters, favourites, and how
   long each one has actually been up
 - **Stats** — longest online, longest down, fullest, and the oldest worlds
-- **Codex** — taming, recipes, baby raising, food trough, traits, and the trading
-  card generator
+- **Codex** — taming, recipes, baby raising, food trough, gathering (who harvests
+  each resource best), artifacts, traits, and the trading card generator
 
 ## Languages
 
