@@ -1,0 +1,207 @@
+/* As cores sao as do tema do desktop (App.xaml), para os dois parecerem o mesmo
+   produto. O site e escuro sempre, como o app. */
+:root {
+    --bg: #0A1220;
+    --panel: #111C2E;
+    --panel-alt: #19263C;
+    --panel-hi: #22334F;
+    --line: #273854;
+    --fg: #E7EFFA;
+    --fg-dim: #8CA2C4;
+    --accent: #FFC53D;
+    --online: #3DDC97;
+    --unstable: #FF9F45;
+    color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+    font-size: 14px;
+}
+
+/* Altura presa na janela: quem rola e a lista e a ficha, cada uma por si. Com a
+   pagina inteira rolando, o cabecalho sumia ao descer a lista. */
+#app { height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
+
+/* Os icones da wiki sao silhuetas escuras e somem no fundo azul-noite. A placa
+   e a mesma do desktop (CreaturesView.xaml). Sem icone, a placa fica vazia em
+   vez de mostrar imagem quebrada. */
+.placa { background: #1E3A5F; border-radius: 8px; padding: 3px; flex: none; }
+img[src=""] { visibility: hidden; }
+
+/* ---------- carregamento: o runtime leva alguns segundos na primeira visita */
+.carregando {
+    margin: auto;
+    text-align: center;
+    color: var(--fg-dim);
+}
+.carregando img { width: 72px; animation: pulsar 1.2s ease-in-out infinite; }
+.loading-progress-text::after { content: var(--blazor-load-percentage-text, ""); }
+@keyframes pulsar { 50% { opacity: .4; } }
+
+/* ---------- topo */
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--line);
+}
+.topo .logo { width: 30px; height: 30px; }
+.topo h1 { font-size: 18px; margin: 0; flex: 1; }
+.topo .sub { color: var(--accent); font-weight: 400; }
+
+select, input[type=number], input[type=search] {
+    background: var(--panel-alt);
+    color: var(--fg);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 5px 8px;
+    font: inherit;
+}
+input[type=number] { width: 70px; }
+
+/* ---------- codex: lista a esquerda, ficha a direita */
+.codex {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: minmax(0, 1fr);
+    min-height: 0;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--line);
+    padding: 10px;
+    gap: 6px;
+    min-height: 0;
+}
+.lista .busca { width: 100%; }
+.so-domaveis { color: var(--fg-dim); font-size: 13px; }
+.contagem { color: var(--fg-dim); font-size: 12px; }
+.lista ul { list-style: none; margin: 0; padding: 0; overflow-y: auto; flex: 1; }
+.lista li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lista li:hover { background: var(--panel-alt); }
+.lista li.ativa { background: var(--panel-hi); color: var(--accent); }
+.lista li img { width: 32px; height: 32px; object-fit: contain; display: block; }
+
+.ficha { overflow-y: auto; padding: 16px 20px; }
+.vazio { color: var(--fg-dim); padding: 24px; }
+
+.cabeca { display: flex; gap: 14px; align-items: center; }
+.cabeca .placa { border-radius: 14px; padding: 8px; }
+.cabeca img { width: 88px; height: 88px; object-fit: contain; display: block; }
+.cabeca h2 { margin: 0; font-size: 22px; }
+.descritor { color: var(--fg-dim); }
+.link { color: var(--accent); cursor: pointer; font-size: 13px; }
+
+.dados {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 4px 16px;
+    margin: 12px 0;
+}
+.dados dt { color: var(--fg-dim); }
+.dados dd { margin: 0; }
+
+h3 { font-size: 15px; margin: 0; }
+h4 { font-size: 13px; color: var(--fg-dim); margin: 10px 0 4px; font-weight: 400; }
+
+.variantes { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+.variantes button, .voltar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--panel-alt);
+    color: var(--fg);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 3px 8px 3px 3px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+}
+/* So no celular, onde a ficha cobre a lista. */
+.ficha .voltar { display: none; }
+
+.variantes img { width: 22px; height: 22px; object-fit: contain; display: block; }
+.variantes .placa { border-radius: 4px; padding: 1px; }
+
+.bloco {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin: 14px 0;
+}
+.bloco-topo { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.bloco-topo h3 { flex: 1; }
+.bloco-topo label { color: var(--fg-dim); font-size: 12px; display: flex; gap: 6px; align-items: center; }
+
+.aviso, .nota { color: var(--fg-dim); font-size: 12px; }
+.destaque { color: var(--accent); }
+.alerta { color: var(--unstable); }
+
+.nocaute { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.nocaute span { display: flex; align-items: center; gap: 4px; }
+.nocaute img { width: 22px; height: 22px; object-fit: contain; }
+
+.tabela { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 4px 8px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+th { color: var(--fg-dim); font-weight: 400; font-size: 12px; }
+th img { width: 22px; height: 22px; vertical-align: middle; }
+.esq { text-align: left; }
+td.esq img { width: 22px; height: 22px; vertical-align: middle; margin-right: 6px; object-fit: contain; }
+tbody tr:first-child td { color: var(--accent); }
+
+.rodape {
+    height: 30px;
+    padding: 6px 16px;
+    color: var(--fg-dim);
+    font-size: 11px;
+    border-top: 1px solid var(--line);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ---------- celular: uma coluna; a ficha cobre a lista e o "←" volta */
+@media (max-width: 760px) {
+    .codex { grid-template-columns: 1fr; }
+    .lista { border-right: none; }
+    .ficha { display: none; padding: 12px 16px; }
+    .codex.com-ficha .lista { display: none; }
+    .codex.com-ficha .ficha { display: block; }
+    .ficha .voltar { display: inline-flex; padding: 4px 12px; margin-bottom: 8px; font-size: 16px; }
+    .cabeca img { width: 64px; height: 64px; }
+}
+
+/* ---------- erro do Blazor (do modelo) */
+#blazor-error-ui {
+    background: var(--unstable);
+    color: #000;
+    bottom: 0;
+    display: none;
+    left: 0;
+    padding: .6rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+#blazor-error-ui .dismiss { cursor: pointer; position: absolute; right: .75rem; top: .5rem; }
