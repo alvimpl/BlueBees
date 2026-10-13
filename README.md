@@ -3,6 +3,12 @@
 A companion app for the official **ARK: Survival Ascended** servers, made for the
 Blue Bees tribe.
 
+## Use it in the browser
+
+**[alvimpl.github.io/BlueBees](https://alvimpl.github.io/BlueBees/)** — the same
+app, nothing to install, on PC or phone. Your favourites stay in your own
+browser. On a phone you can add it to the home screen and open it like an app.
+
 ## Download
 
 Grab it from **[Releases](../../releases/latest)** — the file is
@@ -23,8 +29,8 @@ particular are strict about the security state of Windows, and loosening it to
 launch one app can stop a game from starting.
 
 The "Source code" archives that GitHub attaches to every release contain only
-this distribution repository — README, licence and notices. The application's
-source code is not here.
+this distribution repository — README, licence, notices and the compiled
+website in `docs/`. The application's source code is not here.
 
 ## What it does
 
