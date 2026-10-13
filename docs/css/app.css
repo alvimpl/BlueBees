@@ -278,6 +278,126 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
 .rodape span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .rodape span:empty { display: none; }
 
+/* ---------- cabecalho: contadores e taxas oficiais */
+.contadores { display: flex; gap: 14px; color: var(--fg-dim); font-size: 12px; white-space: nowrap; }
+.contadores span { display: flex; align-items: center; gap: 5px; }
+.taxas-oficiais {
+    font-size: 12px;
+    color: var(--fg-dim);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 3px 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 320px;
+}
+.taxas-oficiais.evento { color: var(--accent); border-color: var(--accent); }
+.topo h1 { flex: none; }
+.topo .contadores { flex: 1; justify-content: flex-end; }
+
+.bola { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+.bola.on { background: var(--online); }
+.bola.instavel { background: var(--unstable); }
+.bola.off { background: #6B7A93; }
+
+/* ---------- servidores: lista larga e ficha estreita a direita */
+.srv {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    grid-template-rows: minmax(0, 1fr);
+    min-height: 0;
+}
+.srv-lista { display: flex; flex-direction: column; min-height: 0; padding: 10px; gap: 6px; border-right: 1px solid var(--line); }
+.filtros { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.filtros .busca { flex: 1 1 260px; }
+.filtros select { max-width: 190px; }
+.marca { color: var(--fg-dim); font-size: 12px; display: flex; gap: 4px; align-items: center; white-space: nowrap; }
+
+.srv-tabela { flex: 1; min-height: 0; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 6px; }
+.srv-corpo { flex: 1; overflow-y: auto; }
+.srv-linha {
+    display: grid;
+    grid-template-columns: 30px 92px minmax(180px, 2fr) 110px 48px 70px 60px 92px minmax(80px, 1fr);
+    align-items: center;
+    height: 34px;
+    padding: 0 8px;
+    gap: 6px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    font-size: 13px;
+}
+.srv-linha > span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.srv-linha:hover { background: var(--panel-alt); }
+.srv-linha.ativa { background: var(--panel-hi); }
+.srv-cabeca { color: var(--fg-dim); font-size: 12px; cursor: default; background: var(--panel); border-radius: 6px 6px 0 0; }
+.srv-cabeca:hover { background: var(--panel); }
+.col-status { display: flex; align-items: center; gap: 6px; }
+.col-num { text-align: right; }
+.col-nome { font-weight: 600; }
+
+.estrela { background: none; border: none; color: var(--line); font-size: 16px; cursor: pointer; padding: 0; line-height: 1; }
+.estrela:hover { color: var(--fg-dim); }
+.estrela.ligada { color: var(--accent); }
+.estrela.grande { font-size: 22px; }
+
+.srv-titulo { display: flex; align-items: center; gap: 8px; }
+.srv-titulo h2 { margin: 0; font-size: 18px; word-break: break-all; }
+.srv-estado { display: flex; align-items: center; gap: 6px; color: var(--fg-dim); margin: 6px 0 4px; }
+.mono { font-family: Consolas, "Cascadia Mono", monospace; user-select: all; }
+
+/* ---------- estatisticas */
+.estatisticas { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.estatisticas .bloco { margin: 0; }
+.ranking ol { list-style: none; margin: 8px 0 0; padding: 0; }
+.ranking li { display: flex; align-items: center; gap: 10px; padding: 5px 0; border-bottom: 1px solid var(--line); }
+.ranking li:last-child { border-bottom: none; }
+.ranking .pos { color: var(--fg-dim); width: 18px; text-align: right; font-size: 12px; }
+.ranking .cresce { display: flex; flex-direction: column; gap: 2px; }
+.rk-nome { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ranking small { color: var(--fg-dim); font-size: 11px; }
+.barra { height: 3px; background: var(--panel-alt); border-radius: 2px; }
+.barra span { display: block; height: 100%; background: var(--accent); border-radius: 2px; }
+.ranking b { color: var(--accent); white-space: nowrap; }
+
+/* ---------- artes: lista, e na ficha o cartao em cima e os controles embaixo */
+.arte {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    grid-template-rows: minmax(0, 1fr);
+    min-height: 0;
+}
+.cartao-arte { max-width: 960px; }
+.cartao-arte canvas {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200 / 630;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    display: block;
+    background: var(--panel);
+}
+.cartao-acoes { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin: 8px 0; }
+.botao.destaque { background: var(--accent); color: #1a1406; border-color: var(--accent); font-weight: 600; }
+.arte-controles { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; max-width: 960px; }
+.arte-controles .bloco { margin: 0; }
+.linha-campos { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.linha-campos input[type=number] { width: 64px; }
+.stats-arte input { width: 52px; padding: 3px 5px; }
+.stats-arte input.valor { width: 76px; text-align: right; }
+.stats-arte td { padding: 3px 4px; }
+.amostra { width: 22px; height: 22px; border-radius: 5px; border: 1px dashed var(--line); flex: none; }
+.itens li.apagada { opacity: .45; }
+.itens select { max-width: 170px; }
+
+/* ---------- apoie */
+.apoie { max-width: 720px; }
+.apoie p { line-height: 1.5; }
+.apoie .grande-texto { font-size: 17px; margin-bottom: 0; }
+a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
+
 /* ---------- celular: uma coluna; a ficha cobre a lista e o "←" volta */
 @media (max-width: 760px) {
     .codex { grid-template-columns: 1fr; }
@@ -289,6 +409,30 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
     .cabeca img { width: 64px; height: 64px; }
     .colunas { grid-template-columns: 1fr; }
     .pagina { padding: 12px 16px; }
+
+    /* Servidores no celular: estrela, status, nome, jogadores e tempo. Mapa,
+       modo, dia e cluster ficam na ficha. */
+    .arte { grid-template-columns: 1fr; }
+    .arte.com-ficha .lista { display: none; }
+    .arte.com-ficha .ficha { display: block; }
+    .srv { grid-template-columns: 1fr; }
+    .srv-lista { border-right: none; }
+    .srv.com-ficha .srv-lista { display: none; }
+    .srv.com-ficha .ficha { display: block; }
+    .srv-linha { grid-template-columns: 24px 20px minmax(0, 1fr) 54px 72px; font-size: 12px; }
+    .srv-linha .col-mapa, .srv-linha .col-modo, .srv-linha .col-dia, .srv-linha .col-cluster { display: none; }
+    .srv-linha .col-status { font-size: 0; }
+    .filtros select { flex: 1 1 40%; max-width: none; min-width: 0; }
+    .topo { flex-wrap: wrap; row-gap: 4px; }
+    .topo .contadores { order: 3; flex-basis: 100%; justify-content: flex-start; }
+    .taxas-oficiais { display: none; }
+}
+
+/* Tela media: a ficha dos servidores aperta a lista; some o cluster. */
+@media (max-width: 1100px) and (min-width: 761px) {
+    .srv { grid-template-columns: 1fr 280px; }
+    .srv-linha { grid-template-columns: 30px 92px minmax(160px, 2fr) 100px 48px 70px 92px; }
+    .srv-linha .col-cluster, .srv-linha .col-dia { display: none; }
 }
 
 /* ---------- erro do Blazor (do modelo) */

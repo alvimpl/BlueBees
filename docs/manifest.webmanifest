@@ -1,0 +1,13 @@
+{
+  "name": "Blue Bees",
+  "short_name": "Blue Bees",
+  "description": "ARK: Survival Ascended official servers, uptime and Codex.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A1220",
+  "theme_color": "#111C2E",
+  "icons": [
+    { "src": "bee.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
