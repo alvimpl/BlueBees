@@ -381,16 +381,34 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
 }
 .cartao-acoes { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin: 8px 0; }
 .botao.destaque { background: var(--accent); color: #1a1406; border-color: var(--accent); font-weight: 600; }
-.arte-controles { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; max-width: 960px; }
-.arte-controles .bloco { margin: 0; }
+/* Sexo, imprint e nivel numa faixa em cima; status e regioes lado a lado
+   embaixo. Em tres colunas iguais a tabela de status (seis colunas de campo)
+   nao cabia, e a coluna do valor saia cortada. */
+.arte-controles {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    gap: 12px;
+    max-width: 960px;
+}
+.arte-controles .bloco { margin: 0; min-width: 0; }
+.arte-controles .bloco:first-child { grid-column: 1 / -1; }
 .linha-campos { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
 .linha-campos input[type=number] { width: 64px; }
-.stats-arte input { width: 52px; padding: 3px 5px; }
-.stats-arte input.valor { width: 76px; text-align: right; }
-.stats-arte td { padding: 3px 4px; }
+.stats-arte { table-layout: fixed; }
+.stats-arte th:first-child { width: auto; }
+.stats-arte th:nth-child(n+2):nth-child(-n+4) { width: 52px; }
+.stats-arte th:nth-child(5) { width: 74px; }
+.stats-arte th:nth-child(6) { width: 22px; }
+.stats-arte th { white-space: normal; font-size: 11px; line-height: 1.2; vertical-align: bottom; }
+.stats-arte td { padding: 3px 2px; }
+.stats-arte td.esq { overflow: hidden; text-overflow: ellipsis; }
+.stats-arte input { width: 100%; padding: 3px 4px; }
+.stats-arte input.valor { text-align: right; }
 .amostra { width: 22px; height: 22px; border-radius: 5px; border: 1px dashed var(--line); flex: none; }
 .itens li.apagada { opacity: .45; }
-.itens select { max-width: 170px; }
+/* Nome da regiao corta com reticencias em vez de quebrar por baixo da caixa. */
+.regioes-arte .cresce { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.regioes-arte select { flex: 0 1 150px; min-width: 0; }
 
 /* ---------- apoie */
 .apoie { max-width: 720px; }
@@ -413,6 +431,7 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
     /* Servidores no celular: estrela, status, nome, jogadores e tempo. Mapa,
        modo, dia e cluster ficam na ficha. */
     .arte { grid-template-columns: 1fr; }
+    .arte-controles { grid-template-columns: minmax(0, 1fr); }
     .arte.com-ficha .lista { display: none; }
     .arte.com-ficha .ficha { display: block; }
     .srv { grid-template-columns: 1fr; }
@@ -433,6 +452,7 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
     .srv { grid-template-columns: 1fr 280px; }
     .srv-linha { grid-template-columns: 30px 92px minmax(160px, 2fr) 100px 48px 70px 92px; }
     .srv-linha .col-cluster, .srv-linha .col-dia { display: none; }
+    .arte-controles { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ---------- erro do Blazor (do modelo) */
