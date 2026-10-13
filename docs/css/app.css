@@ -319,11 +319,14 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
 .srv-corpo { flex: 1; overflow-y: auto; }
 .srv-linha {
     display: grid;
-    grid-template-columns: 30px 92px minmax(180px, 2fr) 110px 48px 70px 60px 92px minmax(80px, 1fr);
+    /* O nome tem teto: sem ele, numa tela larga a coluna engolia o espaco e Dia
+       e "No ar ha" ficavam espremidos e grudados. Mapa e Cluster dividem a sobra;
+       as colunas de numero tem largura fixa. */
+    grid-template-columns: 28px 96px minmax(220px, 1.8fr) minmax(110px, 1fr) 56px 84px 72px 96px minmax(110px, 1fr);
     align-items: center;
     height: 34px;
-    padding: 0 8px;
-    gap: 6px;
+    padding: 0 12px 0 8px;
+    gap: 14px;
     border-bottom: 1px solid var(--line);
     cursor: pointer;
     font-size: 13px;
@@ -450,7 +453,7 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
 /* Tela media: a ficha dos servidores aperta a lista; some o cluster. */
 @media (max-width: 1100px) and (min-width: 761px) {
     .srv { grid-template-columns: 1fr 280px; }
-    .srv-linha { grid-template-columns: 30px 92px minmax(160px, 2fr) 100px 48px 70px 92px; }
+    .srv-linha { grid-template-columns: 28px 92px minmax(160px, 1.6fr) minmax(90px, 1fr) 48px 76px 92px; gap: 10px; }
     .srv-linha .col-cluster, .srv-linha .col-dia { display: none; }
     .arte-controles { grid-template-columns: minmax(0, 1fr); }
 }
