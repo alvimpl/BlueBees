@@ -23,13 +23,18 @@
 
     // Devolve um bloco so para o C#: largura (4 bytes), altura (4 bytes) e os
     // pixels em BGRA, que e a ordem que o TintCore le (a do WPF).
+    // fetch + createImageBitmap, e nao Image.decode(): o decode nao termina com a
+    // aba do navegador escondida, e exportar o pacote e trocar de aba no meio
+    // travava a exportacao para sempre (visto em 14/10/2026).
     async function mascara(url) {
-        const img = new Image();
-        img.decoding = "async";
-        img.src = url;
-        try { await img.decode(); } catch { return null; }
+        let img;
+        try {
+            const resp = await fetch(url);
+            if (!resp.ok) return null;
+            img = await createImageBitmap(await resp.blob());
+        } catch { return null; }
 
-        const w = img.naturalWidth, h = img.naturalHeight;
+        const w = img.width, h = img.height;
         const c = new OffscreenCanvas(w, h);
         const ctx = c.getContext("2d", { willReadFrequently: true });
         ctx.drawImage(img, 0, 0);
@@ -81,14 +86,45 @@
         const canvas = document.getElementById(id);
         if (!canvas) return;
         await promessaLogo;
-        const desenho = JSON.parse(json);
-        const imagens = { logo, dino: imagemDeBgra(dino, dinoLargura, dinoAltura) };
+        pintarEm(canvas, JSON.parse(json), { logo, dino: imagemDeBgra(dino, dinoLargura, dinoAltura) });
+    }
 
+    function pintarEm(canvas, desenho, imagens) {
         canvas.width = desenho.largura;
         canvas.height = desenho.altura;
         const d = canvas.getContext("2d");
         d.clearRect(0, 0, canvas.width, canvas.height);
         for (const p of desenho.passos) passo(d, p, imagens);
+    }
+
+    // ------------------------------------------------------------- pacote
+
+    // As criaturas do pacote, uma por ficha ("dino0", "dino1"...). Chegam uma a
+    // uma, porque byte[] so atravessa do C# sozinho, e sao soltas na exportacao.
+    let doPacote = {};
+
+    function registrar(chave, bgra, w, h) {
+        doPacote[chave] = imagemDeBgra(bgra, w, h);
+    }
+
+    // A folha nao aparece na tela: e pintada num canvas solto e baixada direto.
+    async function exportarDesenho(json, nome) {
+        await promessaLogo;
+        const canvas = document.createElement("canvas");
+        pintarEm(canvas, JSON.parse(json), { ...doPacote, logo });
+        doPacote = {};
+        await new Promise(ok => canvas.toBlob(blob => { baixar(blob, nome); ok(); }, "image/png"));
+    }
+
+    function baixar(blob, nome) {
+        if (!blob) return;
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = nome;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(a.href), 10000);
     }
 
     function passo(d, p, imagens) {
@@ -172,17 +208,8 @@
     function exportar(id, nome) {
         const canvas = document.getElementById(id);
         if (!canvas) return;
-        canvas.toBlob(blob => {
-            if (!blob) return;
-            const a = document.createElement("a");
-            a.href = URL.createObjectURL(blob);
-            a.download = nome;
-            document.body.appendChild(a);
-            a.click();
-            a.remove();
-            setTimeout(() => URL.revokeObjectURL(a.href), 10000);
-        }, "image/png");
+        canvas.toBlob(blob => baixar(blob, nome), "image/png");
     }
 
-    window.blueBeesArte = { mascara, medir, pintar, exportar };
+    window.blueBeesArte = { mascara, medir, pintar, exportar, registrar, exportarDesenho };
 })();

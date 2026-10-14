@@ -430,6 +430,33 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
 }
 .baixar:hover { filter: brightness(1.08); }
 
+/* ---------- pacote de artes */
+.pacote { max-width: 960px; }
+.pacote h3 .contagem { font-weight: 400; margin-left: 6px; }
+.titulo-pacote { flex: 0 1 260px; min-width: 0; }
+.itens-pacote {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 6px;
+}
+.itens-pacote li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--panel-alt);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 4px 6px;
+    font-size: 13px;
+}
+.itens-pacote img { width: 26px; height: 26px; object-fit: contain; display: block; }
+.itens-pacote .placa { padding: 2px; border-radius: 5px; }
+.itens-pacote .cresce { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.itens-pacote small { color: var(--fg-dim); margin-left: 4px; }
+
 /* ---------- apoie */
 .apoie { max-width: 720px; }
 .apoie p { line-height: 1.5; }
