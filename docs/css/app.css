@@ -413,6 +413,23 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
 .regioes-arte .cresce { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .regioes-arte select { flex: 0 1 150px; min-width: 0; }
 
+/* ---------- botao de baixar o app Windows, no cabecalho */
+.baixar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: var(--accent);
+    color: #1a1406;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.baixar:hover { filter: brightness(1.08); }
+
 /* ---------- apoie */
 .apoie { max-width: 720px; }
 .apoie p { line-height: 1.5; }
@@ -448,6 +465,9 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
     .topo { flex-wrap: wrap; row-gap: 4px; }
     .topo .contadores { order: 3; flex-basis: 100%; justify-content: flex-start; }
     .taxas-oficiais { display: none; }
+    /* No celular so a seta: o app e para Windows, e o texto empurraria o idioma. */
+    .baixar-texto { display: none; }
+    .topo .baixar { margin-left: auto; }
 }
 
 /* Tela media: a ficha dos servidores aperta a lista; some o cluster. */
