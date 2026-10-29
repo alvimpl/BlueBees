@@ -505,6 +505,84 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
     .arte-controles { grid-template-columns: minmax(0, 1fr); }
 }
 
+/* ---------- catálogo da tribo (?tribo). Prefixo tr- para não esbarrar no resto. */
+.tr { overflow: auto; padding: 12px 16px; }
+.tr-acento { color: var(--accent); }
+.tr-menu { display: flex; gap: 4px; margin-left: 12px; }
+.tr-menu button { background: none; border: 1px solid transparent; color: var(--fg-dim); padding: 6px 12px; border-radius: 6px; font: inherit; cursor: pointer; }
+.tr-menu button.ativa { color: var(--accent); border-color: var(--line); background: var(--panel-alt); }
+.tr-eu { margin-left: auto; color: var(--fg-dim); font-size: 13px; }
+.tr-eu b { color: var(--fg); }
+.tr-dim { color: var(--fg-dim); font-size: 12px; }
+.tr-centro { text-align: center; padding: 24px; }
+.tr-espaco { flex: 1; }
+.tr-erro { background: #3a1820; border: 1px solid #ff5d73; color: #ffc2cb; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; cursor: pointer; }
+.tr-cartao { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px; }
+.tr-entrada { max-width: 380px; margin: 40px auto; display: flex; flex-direction: column; gap: 10px; }
+.tr-titulo { font-weight: 600; font-size: 16px; }
+.tr-rotulo { color: var(--fg-dim); font-size: 12px; display: block; margin-bottom: 4px; }
+.tr-in { background: var(--panel-alt); border: 1px solid var(--line); color: var(--fg); border-radius: 6px; padding: 7px 10px; font: inherit; min-width: 0; }
+.tr-curto { width: 80px; }
+.tr-btn { background: var(--accent); color: #2b1f00; border: 0; border-radius: 6px; padding: 8px 14px; font: inherit; font-weight: 700; cursor: pointer; }
+.tr-btn:disabled, .tr-btn2:disabled { opacity: .6; cursor: wait; }
+.tr-btn2 { background: none; color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; font: inherit; cursor: pointer; }
+.tr-perigo { color: #ff5d73; }
+.tr-link { background: none; border: 0; color: var(--fg-dim); font: inherit; cursor: pointer; padding: 0; text-decoration: underline; }
+.tr-nomes { display: flex; flex-wrap: wrap; gap: 8px; }
+.tr-nome { background: var(--panel-alt); border: 1px solid var(--line); color: var(--fg); border-radius: 8px; padding: 9px 16px; font: inherit; cursor: pointer; }
+.tr-nome:hover { border-color: var(--accent); color: var(--accent); }
+.tr-barra { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+.tr-grade { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px 10px 0 0; }
+.tr table { width: 100%; border-collapse: collapse; }
+.tr th { font-weight: 600; color: var(--fg-dim); font-size: 12px; text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); background: var(--panel); white-space: nowrap; }
+.tr td { padding: 6px; border-bottom: 1px solid var(--line); white-space: nowrap; text-align: left; }
+.tr th.n, .tr td.n { text-align: right; }
+.tr-grade tbody tr { cursor: pointer; }
+.tr-grade tbody tr:nth-child(even) td { background: #0d1626; }
+.tr-grade tbody tr:hover td { background: var(--panel-hi); }
+.tr-apagada td { opacity: .5; }
+.tr-esp { display: flex; align-items: center; gap: 8px; }
+.tr-esp img { width: 30px; height: 30px; object-fit: contain; display: block; }
+.tr-f { color: #ff9ec7; }
+.tr-m { color: #7fb6ff; }
+.tr-melhor { color: var(--accent); font-weight: 700; }
+.tr-padrao { display: inline-block; border: 1px solid #D79E14; color: var(--accent); border-radius: 4px; padding: 1px 8px; font-size: 12px; }
+.tr-cores { display: flex; gap: 3px; }
+.tr-cor { width: 30px; text-align: center; font-size: 10px; color: var(--fg-dim); }
+.tr-cor i { display: block; height: 16px; border-radius: 3px; border: 1px solid #ffffff30; margin-bottom: 1px; }
+.tr-cores.grande { gap: 8px; }
+.tr-cores.grande .tr-cor { width: 54px; cursor: pointer; }
+.tr-cores.grande .tr-cor i { height: 26px; }
+.tr-cor.sel i { outline: 2px solid var(--accent); outline-offset: 1px; }
+.tr-tag { display: inline-block; background: var(--panel-alt); border: 1px solid var(--line); color: var(--fg); border-radius: 10px; padding: 1px 8px; font: inherit; font-size: 12px; margin-right: 3px; }
+.tr-tag.eu { border-color: #D79E14; color: var(--accent); }
+.tr-tag.fora { border-style: dashed; color: var(--fg-dim); cursor: pointer; }
+button.tr-tag { cursor: pointer; }
+.tr-rodape { display: flex; flex-wrap: wrap; gap: 20px; padding: 8px 12px; color: var(--fg-dim); font-size: 12px; background: var(--panel); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 10px 10px; }
+.tr-padroes { max-width: 640px; }
+.tr-linha { display: flex; gap: 8px; margin-bottom: 12px; }
+.tr-linha .tr-in { flex: 1; }
+.tr-fundo { position: fixed; inset: 0; background: #000a; display: flex; align-items: flex-start; justify-content: center; padding: 30px 12px; overflow: auto; z-index: 50; }
+.tr-editor { width: 100%; max-width: 820px; }
+.tr-form { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px 16px; margin: 14px 0; }
+.tr-campo .tr-in { width: 100%; }
+.tr-l2 { grid-column: span 2; }
+.tr-l3 { grid-column: span 3; }
+.tr-l4 { grid-column: span 4; }
+.tr-paleta { margin-top: 10px; background: var(--panel-alt); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+.tr-paleta .tr-in { width: 100%; margin-bottom: 8px; }
+.tr-grade-cores { display: grid; grid-template-columns: repeat(auto-fill, 24px); gap: 4px; max-height: 180px; overflow: auto; }
+.tr-grade-cores i { height: 24px; border-radius: 4px; border: 1px solid #ffffff25; cursor: pointer; display: block; }
+.tr-grade-cores i.sel { outline: 2px solid var(--accent); outline-offset: 1px; }
+.tr-grade-cores i.nenhuma { display: grid; place-items: center; font-style: normal; color: var(--fg-dim); font-size: 12px; }
+.tr-donos { display: flex; flex-wrap: wrap; gap: 4px; }
+.tr-acoes { display: flex; gap: 8px; border-top: 1px solid var(--line); padding-top: 14px; }
+@media (max-width: 640px) {
+    .tr-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .tr-l3, .tr-l4 { grid-column: span 2; }
+    .tr-eu { width: 100%; }
+}
+
 /* ---------- erro do Blazor (do modelo) */
 #blazor-error-ui {
     background: var(--unstable);
