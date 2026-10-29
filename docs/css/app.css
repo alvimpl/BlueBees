@@ -540,7 +540,6 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
 .tr-grade tbody tr { cursor: pointer; }
 .tr-grade tbody tr:nth-child(even) td { background: #0d1626; }
 .tr-grade tbody tr:hover td { background: var(--panel-hi); }
-.tr-apagada td { opacity: .5; }
 .tr-esp { display: flex; align-items: center; gap: 8px; }
 .tr-esp img { width: 30px; height: 30px; object-fit: contain; display: block; }
 .tr-f { color: #ff9ec7; }
@@ -554,6 +553,12 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
 .tr-cores.grande .tr-cor { width: 54px; cursor: pointer; }
 .tr-cores.grande .tr-cor i { height: 26px; }
 .tr-cor.sel i { outline: 2px solid var(--accent); outline-offset: 1px; }
+.tr-cores-e-previa { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+.tr-regiao { display: flex; flex-direction: column; gap: 4px; width: 64px; }
+.tr-cores.grande .tr-regiao .tr-cor { width: 64px; }
+.tr-id { width: 64px; padding: 4px; text-align: center; }
+.tr-previa { flex: 1; min-width: 200px; max-width: 360px; background: var(--panel-alt); border: 1px solid var(--line); border-radius: 8px; padding: 6px; text-align: center; }
+.tr-previa canvas { width: 100%; height: auto; display: block; }
 .tr-tag { display: inline-block; background: var(--panel-alt); border: 1px solid var(--line); color: var(--fg); border-radius: 10px; padding: 1px 8px; font: inherit; font-size: 12px; margin-right: 3px; }
 .tr-tag.eu { border-color: #D79E14; color: var(--accent); }
 .tr-tag.fora { border-style: dashed; color: var(--fg-dim); cursor: pointer; }
@@ -575,7 +580,6 @@ button.tr-tag { cursor: pointer; }
 .tr-grade-cores i { height: 24px; border-radius: 4px; border: 1px solid #ffffff25; cursor: pointer; display: block; }
 .tr-grade-cores i.sel { outline: 2px solid var(--accent); outline-offset: 1px; }
 .tr-grade-cores i.nenhuma { display: grid; place-items: center; font-style: normal; color: var(--fg-dim); font-size: 12px; }
-.tr-donos { display: flex; flex-wrap: wrap; gap: 4px; }
 .tr-acoes { display: flex; gap: 8px; border-top: 1px solid var(--line); padding-top: 14px; }
 @media (max-width: 640px) {
     .tr-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }

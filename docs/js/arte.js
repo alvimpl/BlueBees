@@ -203,6 +203,18 @@
         d.setLineDash([]);
     }
 
+    // Só a criatura, sem cartão: a prévia do editor do catálogo da tribo.
+    function pintarDino(id, dino, w, h) {
+        const canvas = document.getElementById(id);
+        if (!canvas) return;
+        const img = imagemDeBgra(dino, w, h);
+        const d = canvas.getContext("2d");
+        if (!img) { d.clearRect(0, 0, canvas.width, canvas.height); return; }
+        canvas.width = w;
+        canvas.height = h;
+        d.drawImage(img, 0, 0);
+    }
+
     // ------------------------------------------------------------ exportar
 
     function exportar(id, nome) {
@@ -211,5 +223,5 @@
         canvas.toBlob(blob => baixar(blob, nome), "image/png");
     }
 
-    window.blueBeesArte = { mascara, medir, pintar, exportar, registrar, exportarDesenho };
+    window.blueBeesArte = { mascara, medir, pintar, pintarDino, exportar, registrar, exportarDesenho };
 })();
