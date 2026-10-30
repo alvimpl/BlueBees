@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-09-11T22:50:06.2101103Z",
+  "GeneratedUtc": "2026-10-30T08:43:44.1571782Z",
   "Source": "ARK Wiki (ark.wiki.gg)",
   "License": "CC BY-NC-SA 4.0",
   "Creatures": [
@@ -1431,7 +1431,7 @@
       "Released": "",
       "Icon": "Abyssalus.png",
       "Dossier": "",
-      "IsVariant": false,
+      "IsVariant": true,
       "VariantOf": "",
       "Saddle": "",
       "SaddleLevel": 0,
@@ -1451,7 +1451,7 @@
       "Icon": "Abyssalus (Alpha).png",
       "Dossier": "",
       "IsVariant": true,
-      "VariantOf": "Abyssalus",
+      "VariantOf": "",
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
@@ -1470,7 +1470,7 @@
       "Icon": "Abyssalus (Beta).png",
       "Dossier": "",
       "IsVariant": true,
-      "VariantOf": "Abyssalus",
+      "VariantOf": "",
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
@@ -1489,7 +1489,7 @@
       "Icon": "Abyssalus (Gamma).png",
       "Dossier": "",
       "IsVariant": true,
-      "VariantOf": "Abyssalus",
+      "VariantOf": "",
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
@@ -1724,7 +1724,7 @@
         "EggSpeedMult": 1,
         "GestationSpeed": 0,
         "GestationSpeedMult": 0,
-        "Weight": 650,
+        "Weight": 600,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
       },
@@ -1790,7 +1790,7 @@
       "Raising": {
         "BirthType": "Incubation",
         "FoodType": "Carnivore",
-        "BaseFoodRate": 0.001852,
+        "BaseFoodRate": 0.002052,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
@@ -2790,7 +2790,7 @@
       "Raising": {
         "BirthType": "Incubation",
         "FoodType": "Herbivore",
-        "BaseFoodRate": 0.003156,
+        "BaseFoodRate": 0.00625,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
@@ -3246,7 +3246,7 @@
         "EggSpeedMult": 3.5,
         "GestationSpeed": 0,
         "GestationSpeedMult": 0,
-        "Weight": 100,
+        "Weight": 150,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
       },
@@ -4054,7 +4054,22 @@
         "DamageIncD": 0.017,
         "SpeedIncD": 0.01
       },
-      "Raising": null,
+      "Raising": {
+        "BirthType": "Gestation",
+        "FoodType": "Carnivore",
+        "BaseFoodRate": 0.002314,
+        "BabyFoodRate": 25.5,
+        "ExtraBabyFoodRate": 20,
+        "AgeSpeed": 3E-06,
+        "AgeSpeedMult": 1,
+        "EggSpeed": 0,
+        "EggSpeedMult": 0,
+        "GestationSpeed": 3.5E-05,
+        "GestationSpeedMult": 1,
+        "Weight": 2000,
+        "FoodMultipliers": {},
+        "WasteMultipliers": {}
+      },
       "Taming": null
     },
     {
@@ -4383,8 +4398,8 @@
         "Stamina": 650,
         "Oxygen": 0,
         "Food": 2500,
-        "Weight": 800,
-        "Damage": 44,
+        "Weight": 2200,
+        "Damage": 55,
         "Speed": 100,
         "Torpor": 175,
         "HealthIncW": 0.2,
@@ -4955,7 +4970,24 @@
         "Gestation": 0,
         "BabyTime": 19607.8431
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Legs"
+        },
+        {
+          "Id": 1,
+          "Name": "Back Plates"
+        },
+        {
+          "Id": 3,
+          "Name": "Arms"
+        },
+        {
+          "Id": 4,
+          "Name": "Skin Flap"
+        }
+      ],
       "Stats": {
         "Health": 450,
         "Stamina": 600,
@@ -4995,6 +5027,25 @@
         "FoodMultipliers": {},
         "WasteMultipliers": {}
       },
+      "Taming": null
+    },
+    {
+      "Name": "Bloodstalker Ghost",
+      "Diet": "Sanguinivore",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Bloodstalker Ghost.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Bloodstalker",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
       "Taming": null
     },
     {
@@ -6568,6 +6619,25 @@
       "Taming": null
     },
     {
+      "Name": "Burrowbuck Ghost",
+      "Diet": "Herbivore",
+      "Temperament": "Skittish",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Burrowbuck Ghost.png",
+      "Dossier": "Dossier Burrowbuck.png",
+      "IsVariant": true,
+      "VariantOf": "Burrowbuck",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Carbonemys",
       "Diet": "Herbivore",
       "Temperament": "Defensive",
@@ -7137,15 +7207,37 @@
       "Rideable": true,
       "Tameable": true,
       "Released": "",
-      "Icon": "",
+      "Icon": "Cerberax.png",
       "Dossier": "Dossier Cerberax.png",
       "IsVariant": false,
       "VariantOf": "",
       "Saddle": "Cerberax Saddle",
-      "SaddleLevel": 0,
+      "SaddleLevel": 74,
       "Breeding": null,
       "Paint": [],
-      "Stats": null,
+      "Stats": {
+        "Health": 1400,
+        "Stamina": 500,
+        "Oxygen": 150,
+        "Food": 3000,
+        "Weight": 666,
+        "Damage": 62,
+        "Speed": 100,
+        "Torpor": 1350,
+        "HealthIncW": 0.2,
+        "StaminaIncW": 0.1,
+        "OxygenIncW": 0.1,
+        "FoodIncW": 0.1,
+        "WeightIncW": 0.02,
+        "DamageIncW": 0.05,
+        "HealthIncD": 0.054,
+        "StaminaIncD": 0.1,
+        "OxygenIncD": 0.1,
+        "FoodIncD": 0.1,
+        "WeightIncD": 0.04,
+        "DamageIncD": 0.017,
+        "SpeedIncD": 0.01
+      },
       "Raising": null,
       "Taming": null
     },
@@ -7612,7 +7704,7 @@
         "Oxygen": 150,
         "Food": 100,
         "Weight": 100,
-        "Damage": 0,
+        "Damage": 100,
         "Speed": 100,
         "Torpor": 100,
         "HealthIncW": 0.5,
@@ -8043,7 +8135,29 @@
       "SaddleLevel": 0,
       "Breeding": null,
       "Paint": [],
-      "Stats": null,
+      "Stats": {
+        "Health": 2500,
+        "Stamina": 100,
+        "Oxygen": 150,
+        "Food": 100,
+        "Weight": 100,
+        "Damage": 100,
+        "Speed": 100,
+        "Torpor": 100,
+        "HealthIncW": 0.5,
+        "StaminaIncW": 0.1,
+        "OxygenIncW": 0.1,
+        "FoodIncW": 0.1,
+        "WeightIncW": 0.02,
+        "DamageIncW": 0.05,
+        "HealthIncD": 0,
+        "StaminaIncD": 0,
+        "OxygenIncD": 0,
+        "FoodIncD": 0,
+        "WeightIncD": 0,
+        "DamageIncD": 0,
+        "SpeedIncD": 0
+      },
       "Raising": null,
       "Taming": null
     },
@@ -8125,7 +8239,7 @@
       },
       "Raising": {
         "BirthType": "Incubation",
-        "FoodType": "Sinomacrops",
+        "FoodType": "Carnivore",
         "BaseFoodRate": 0.000868,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
@@ -8149,7 +8263,7 @@
       "Tameable": true,
       "Released": "",
       "Icon": "Cryolophosaurus.png",
-      "Dossier": "",
+      "Dossier": "Dossier Cryolophosaurus.png",
       "IsVariant": false,
       "VariantOf": "",
       "Saddle": "Cryolophosaurus Saddle",
@@ -8782,7 +8896,7 @@
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 2.5,
         "EggSpeed": 0.005556,
-        "EggSpeedMult": 1,
+        "EggSpeedMult": 2.5,
         "GestationSpeed": 0,
         "GestationSpeedMult": 0,
         "Weight": 140,
@@ -8893,7 +9007,7 @@
         "Oxygen": 150,
         "Food": 8000,
         "Weight": 800,
-        "Damage": 35,
+        "Damage": 30,
         "Speed": 100,
         "Torpor": 2500,
         "HealthIncW": 0.2,
@@ -9600,7 +9714,7 @@
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 2.5,
         "EggSpeed": 0.005556,
-        "EggSpeedMult": 4.1,
+        "EggSpeedMult": 1,
         "GestationSpeed": 0,
         "GestationSpeedMult": 0,
         "Weight": 150,
@@ -10577,7 +10691,7 @@
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 0.5,
-        "EggSpeed": 3.5E-05,
+        "EggSpeed": 0.005556,
         "EggSpeedMult": 1,
         "GestationSpeed": 0,
         "GestationSpeedMult": 0,
@@ -10953,17 +11067,17 @@
         "SpeedIncD": 0.01
       },
       "Raising": {
-        "BirthType": "Gestation",
+        "BirthType": "Incubation",
         "FoodType": "Carnivore",
         "BaseFoodRate": 0.002929,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 2,
-        "EggSpeed": 0,
-        "EggSpeedMult": 0,
-        "GestationSpeed": 3.5E-05,
-        "GestationSpeedMult": 1,
+        "EggSpeed": 0.005556,
+        "EggSpeedMult": 1,
+        "GestationSpeed": 0,
+        "GestationSpeedMult": 0,
         "Weight": 150,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
@@ -11106,13 +11220,13 @@
     },
     {
       "Name": "Enigmasaur",
-      "Diet": "Carnivore",
+      "Diet": "Insectivore",
       "Temperament": "",
       "Rideable": true,
       "Tameable": true,
       "Released": "",
       "Icon": "",
-      "Dossier": "",
+      "Dossier": "Dossier Enigmasaur.png",
       "IsVariant": false,
       "VariantOf": "",
       "Saddle": "Enigmasaur Saddle",
@@ -11311,7 +11425,7 @@
         "EggSpeed": 0,
         "EggSpeedMult": 0,
         "GestationSpeed": 3.5E-05,
-        "GestationSpeedMult": 0.6,
+        "GestationSpeedMult": 1,
         "Weight": 350,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
@@ -11518,7 +11632,7 @@
     {
       "Name": "Fasolasuchus",
       "Diet": "Carnivore",
-      "Temperament": "Aggressive (Ambusher)",
+      "Temperament": "Aggressive",
       "Rideable": true,
       "Tameable": true,
       "Released": "",
@@ -11740,7 +11854,7 @@
     {
       "Name": "Fenris\u00FAlfr",
       "Diet": "",
-      "Temperament": "Agressive",
+      "Temperament": "Aggressive",
       "Rideable": false,
       "Tameable": false,
       "Released": "2022-06-12",
@@ -12294,7 +12408,7 @@
         "EggSpeedMult": 0,
         "GestationSpeed": 3.5E-05,
         "GestationSpeedMult": 1,
-        "Weight": 380,
+        "Weight": 550,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
       },
@@ -12570,15 +12684,61 @@
     {
       "Name": "Gargantar",
       "Diet": "Omnivore",
-      "Temperament": "",
+      "Temperament": "Neutral",
       "Rideable": true,
       "Tameable": true,
       "Released": "",
-      "Icon": "",
+      "Icon": "Gargantar.png",
       "Dossier": "",
       "IsVariant": false,
       "VariantOf": "",
       "Saddle": "Gargantar Saddle",
+      "SaddleLevel": 52,
+      "Breeding": null,
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main upper"
+        }
+      ],
+      "Stats": {
+        "Health": 1500,
+        "Stamina": 400,
+        "Oxygen": 150,
+        "Food": 4500,
+        "Weight": 950,
+        "Damage": 25,
+        "Speed": 100,
+        "Torpor": 475,
+        "HealthIncW": 0.15,
+        "StaminaIncW": 0.05,
+        "OxygenIncW": 0.1,
+        "FoodIncW": 0.1,
+        "WeightIncW": 0.02,
+        "DamageIncW": 0.05,
+        "HealthIncD": 0.0216,
+        "StaminaIncD": 0.05,
+        "OxygenIncD": 0.1,
+        "FoodIncD": 0.1,
+        "WeightIncD": 0.04,
+        "DamageIncD": 0.017,
+        "SpeedIncD": 0.01
+      },
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Gargantar Ghost",
+      "Diet": "Omnivore",
+      "Temperament": "Neutral",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Gargantar Ghost.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Gargantar",
+      "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
       "Paint": [],
@@ -13256,7 +13416,7 @@
       },
       "Raising": {
         "BirthType": "Incubation",
-        "FoodType": "Herbivore",
+        "FoodType": "Omnivore",
         "BaseFoodRate": 0.000868,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
@@ -13563,6 +13723,63 @@
       "Taming": null
     },
     {
+      "Name": "Grendel (Alpha)",
+      "Diet": "Carnivore",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Grendel (Beta)",
+      "Diet": "Carnivore",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Grendel (Gamma)",
+      "Diet": "Carnivore",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Griffin",
       "Diet": "Carnivore",
       "Temperament": "Aggressive",
@@ -13740,17 +13957,17 @@
         "SpeedIncD": 0
       },
       "Raising": {
-        "BirthType": "Gestation",
+        "BirthType": "Incubation",
         "FoodType": "Carnivore",
         "BaseFoodRate": 0.001852,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 0.9,
-        "EggSpeed": 0,
-        "EggSpeedMult": 0,
-        "GestationSpeed": 3.5E-05,
-        "GestationSpeedMult": 1,
+        "EggSpeed": 0.005556,
+        "EggSpeedMult": 1,
+        "GestationSpeed": 0,
+        "GestationSpeedMult": 0,
         "Weight": 500,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
@@ -15130,17 +15347,17 @@
         "SpeedIncD": 0.01
       },
       "Raising": {
-        "BirthType": "Incubation",
+        "BirthType": "Gestation",
         "FoodType": "Carrion",
         "BaseFoodRate": 0.003156,
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 0.8,
-        "EggSpeed": 0.005556,
-        "EggSpeedMult": 1,
-        "GestationSpeed": 0,
-        "GestationSpeedMult": 0,
+        "EggSpeed": 0,
+        "EggSpeedMult": 0,
+        "GestationSpeed": 2.8E-05,
+        "GestationSpeedMult": 1,
         "Weight": 800,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
@@ -15390,6 +15607,158 @@
       "Tameable": false,
       "Released": "",
       "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Brigantine",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Brigantine.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Brigantine (Alpha)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Brigantine (Alpha).png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Brigantine (Beta)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Brigantine (Beta).png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Brigantine (Gamma)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Brigantine (Gamma).png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Sloop",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Sloop.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Sloop (Alpha)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Sloop (Alpha).png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Sloop (Beta)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Sloop (Beta).png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Kraken Sloop (Gamma)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Kraken Sloop (Gamma).png",
       "Dossier": "",
       "IsVariant": true,
       "VariantOf": "",
@@ -17648,7 +18017,20 @@
         "Gestation": 0,
         "BabyTime": 33333.3333
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Dark Scales"
+        },
+        {
+          "Id": 1,
+          "Name": "Rocks"
+        },
+        {
+          "Id": 4,
+          "Name": "Light Belly"
+        }
+      ],
       "Stats": {
         "Health": 1920,
         "Stamina": 100,
@@ -17970,11 +18352,11 @@
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
-        "AgeSpeedMult": 1,
+        "AgeSpeedMult": 1.3,
         "EggSpeed": 0,
         "EggSpeedMult": 0,
         "GestationSpeed": 3.5E-05,
-        "GestationSpeedMult": 1,
+        "GestationSpeedMult": 1.3,
         "Weight": 250,
         "FoodMultipliers": {},
         "WasteMultipliers": {}
@@ -18334,6 +18716,25 @@
         "FoodMultipliers": {},
         "WasteMultipliers": {}
       },
+      "Taming": null
+    },
+    {
+      "Name": "Megaraptor Ghost",
+      "Diet": "Carnivore",
+      "Temperament": "Extremely Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Megaraptor Ghost.png",
+      "Dossier": "Dossier Megaraptor.png",
+      "IsVariant": true,
+      "VariantOf": "Megaraptor",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
       "Taming": null
     },
     {
@@ -19420,6 +19821,63 @@
       "Taming": null
     },
     {
+      "Name": "Natrix (Alpha)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Natrix",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Natrix (Beta)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Natrix",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Natrix (Gamma)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Natrix",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Neophyte",
       "Diet": "Carnivore",
       "Temperament": "Aggressive",
@@ -19498,6 +19956,25 @@
         "DamageIncD": 0.017,
         "SpeedIncD": 0.01
       },
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "NPC Ships",
+      "Diet": "N/A",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "NPC Ships.png",
+      "Dossier": "",
+      "IsVariant": false,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
       "Raising": null,
       "Taming": null
     },
@@ -21420,13 +21897,54 @@
     {
       "Name": "Pirate",
       "Diet": "Omnivore",
-      "Temperament": "",
+      "Temperament": "Territorial",
       "Rideable": false,
       "Tameable": false,
       "Released": "",
       "Icon": "Pirate.png",
       "Dossier": "",
       "IsVariant": false,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": {
+        "Health": 300,
+        "Stamina": 150,
+        "Oxygen": 150,
+        "Food": 1200,
+        "Weight": 140,
+        "Damage": 100,
+        "Speed": 100,
+        "Torpor": 180,
+        "HealthIncW": 0.2,
+        "StaminaIncW": 0.1,
+        "OxygenIncW": 0.1,
+        "FoodIncW": 0.1,
+        "WeightIncW": 0.02,
+        "DamageIncW": 0.05,
+        "HealthIncD": 0.054,
+        "StaminaIncD": 0.1,
+        "OxygenIncD": 0.1,
+        "FoodIncD": 0.1,
+        "WeightIncD": 0.04,
+        "DamageIncD": 0.017,
+        "SpeedIncD": 0
+      },
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Pirate Brigantine",
+      "Diet": "",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Pirate Brigantine.png",
+      "Dossier": "",
+      "IsVariant": true,
       "VariantOf": "",
       "Saddle": "",
       "SaddleLevel": 0,
@@ -21463,6 +21981,44 @@
       "Tameable": false,
       "Released": "",
       "Icon": "Pirate Dodo.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Pirate Fleet Admiral Brigantine",
+      "Diet": "",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Pirate Fleet Admiral Brigantine.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Pirate Fleet Admiral Trireme",
+      "Diet": "",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Pirate Fleet Admiral Trireme.png",
       "Dossier": "",
       "IsVariant": true,
       "VariantOf": "",
@@ -21570,6 +22126,25 @@
       "Taming": null
     },
     {
+      "Name": "Pirate Sloop",
+      "Diet": "",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Pirate Sloop.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Pirate Swashbuckler",
       "Diet": "Omnivore",
       "Temperament": "",
@@ -21615,6 +22190,25 @@
       "Tameable": false,
       "Released": "",
       "Icon": "Pirate Trapshooter.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Pirate Trireme",
+      "Diet": "",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Pirate Trireme.png",
       "Dossier": "",
       "IsVariant": true,
       "VariantOf": "",
@@ -22160,7 +22754,29 @@
       "SaddleLevel": 0,
       "Breeding": null,
       "Paint": [],
-      "Stats": null,
+      "Stats": {
+        "Health": 30000,
+        "Stamina": 0,
+        "Oxygen": 0,
+        "Food": 0,
+        "Weight": 0,
+        "Damage": 100,
+        "Speed": 100,
+        "Torpor": 0,
+        "HealthIncW": 0.001333,
+        "StaminaIncW": 0,
+        "OxygenIncW": 0,
+        "FoodIncW": 0,
+        "WeightIncW": 0,
+        "DamageIncW": 0,
+        "HealthIncD": 0,
+        "StaminaIncD": 0,
+        "OxygenIncD": 0,
+        "FoodIncD": 0,
+        "WeightIncD": 0,
+        "DamageIncD": 0,
+        "SpeedIncD": 0
+      },
       "Raising": null,
       "Taming": null
     },
@@ -22503,7 +23119,7 @@
         "Oxygen": 150,
         "Food": 1200,
         "Weight": 800,
-        "Damage": 32,
+        "Damage": 22,
         "Speed": 100,
         "Torpor": 1850,
         "HealthIncW": 0.2,
@@ -22696,7 +23312,7 @@
       "Tameable": false,
       "Released": "",
       "Icon": "R-Cryolophosaurus.png",
-      "Dossier": "",
+      "Dossier": "Dossier Cryolophosaurus.png",
       "IsVariant": true,
       "VariantOf": "Cryolophosaurus",
       "Saddle": "",
@@ -25904,7 +26520,7 @@
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
-        "AgeSpeedMult": 6,
+        "AgeSpeedMult": 2.5,
         "EggSpeed": 0.005556,
         "EggSpeedMult": 1.9,
         "GestationSpeed": 0,
@@ -26161,7 +26777,29 @@
       "SaddleLevel": 0,
       "Breeding": null,
       "Paint": [],
-      "Stats": null,
+      "Stats": {
+        "Health": 200,
+        "Stamina": 150,
+        "Oxygen": 150,
+        "Food": 1200,
+        "Weight": 140,
+        "Damage": 100,
+        "Speed": 100,
+        "Torpor": 180,
+        "HealthIncW": 0.2,
+        "StaminaIncW": 0.1,
+        "OxygenIncW": 0.1,
+        "FoodIncW": 0.1,
+        "WeightIncW": 0.02,
+        "DamageIncW": 0.05,
+        "HealthIncD": 0,
+        "StaminaIncD": 0,
+        "OxygenIncD": 0,
+        "FoodIncD": 0,
+        "WeightIncD": 0,
+        "DamageIncD": 0,
+        "SpeedIncD": 0
+      },
       "Raising": null,
       "Taming": null
     },
@@ -27831,6 +28469,25 @@
       }
     },
     {
+      "Name": "Therizinosaur Ghost",
+      "Diet": "Herbivore",
+      "Temperament": "Territorial",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Therizinosaur Ghost.png",
+      "Dossier": "Dossier Therizinosaur.png",
+      "IsVariant": true,
+      "VariantOf": "Therizinosaur",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Thodes",
       "Diet": "",
       "Temperament": "Aggressive",
@@ -27841,6 +28498,63 @@
       "Dossier": "",
       "IsVariant": false,
       "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Thodes (Alpha)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Thodes",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Thodes (Beta)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Thodes",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Thodes (Gamma)",
+      "Diet": "",
+      "Temperament": "Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "Thodes",
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
@@ -28598,6 +29312,25 @@
       "Taming": null
     },
     {
+      "Name": "Tidepup Ghost",
+      "Diet": "Carnivore",
+      "Temperament": "Curious",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Tidepup Ghost.png",
+      "Dossier": "Dossier Tidepup.png",
+      "IsVariant": true,
+      "VariantOf": "Tidepup",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Tiktaalik",
       "Diet": "Piscivore",
       "Temperament": "Skittish",
@@ -29154,7 +29887,7 @@
         "BirthType": "Incubation",
         "FoodType": "Carnivore",
         "BaseFoodRate": 0.001543,
-        "BabyFoodRate": 25.5,
+        "BabyFoodRate": 20,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 4.4,
@@ -30848,6 +31581,25 @@
       }
     },
     {
+      "Name": "Wandering King Titan",
+      "Diet": "",
+      "Temperament": "Highly Aggressive",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "Wandering King Titan.png",
+      "Dossier": "",
+      "IsVariant": true,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
       "Name": "Water Jug Bug",
       "Diet": "Herbivore",
       "Temperament": "Passive",
@@ -31019,7 +31771,7 @@
         "BabyFoodRate": 25.5,
         "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
-        "AgeSpeedMult": 1.6,
+        "AgeSpeedMult": 2,
         "EggSpeed": 0,
         "EggSpeedMult": 0,
         "GestationSpeed": 3.5E-05,
@@ -31108,8 +31860,8 @@
         "BirthType": "Incubation",
         "FoodType": "Wyvern",
         "BaseFoodRate": 0.000185,
-        "BabyFoodRate": 13,
-        "ExtraBabyFoodRate": 30,
+        "BabyFoodRate": 22.5,
+        "ExtraBabyFoodRate": 20,
         "AgeSpeed": 3E-06,
         "AgeSpeedMult": 1,
         "EggSpeed": 0.005556,
@@ -31287,7 +32039,7 @@
       "Tameable": false,
       "Released": "",
       "Icon": "X-Cryolophosaurus.png",
-      "Dossier": "",
+      "Dossier": "Dossier Cryolophosaurus.png",
       "IsVariant": true,
       "VariantOf": "Cryolophosaurus",
       "Saddle": "",
@@ -31763,6 +32515,25 @@
         "Gestation": 0,
         "BabyTime": 66666.6625
       },
+      "Paint": [],
+      "Stats": null,
+      "Raising": null,
+      "Taming": null
+    },
+    {
+      "Name": "Xeranox",
+      "Diet": "",
+      "Temperament": "",
+      "Rideable": false,
+      "Tameable": false,
+      "Released": "",
+      "Icon": "",
+      "Dossier": "",
+      "IsVariant": false,
+      "VariantOf": "",
+      "Saddle": "",
+      "SaddleLevel": 0,
+      "Breeding": null,
       "Paint": [],
       "Stats": null,
       "Raising": null,
@@ -34141,7 +34912,7 @@
           "Qty": 150
         },
         {
-          "Name": "Polymer or Organic Polymer",
+          "Name": "Polymer, Organic Polymer, or Corrupted Nodule",
           "Qty": 50
         }
       ]
@@ -35991,7 +36762,8 @@
       "Name": "Bloodforge",
       "Category": "Crafting Stations",
       "CraftedIn": [
-        "Tek Replicator"
+        "Tek Replicator",
+        "Exo-Mek"
       ],
       "RequiredLevel": 75,
       "EngramPoints": 20,
@@ -36017,6 +36789,27 @@
         {
           "Name": "Electronics",
           "Qty": 100
+        }
+      ]
+    },
+    {
+      "Name": "Bloodstalker Ghost Costume",
+      "Category": "Skins",
+      "CraftedIn": [
+        "Smithy"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 0,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Ectoplasm (Bloodstalker)",
+          "Qty": 1
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 25
         }
       ]
     },
@@ -36068,6 +36861,40 @@
         {
           "Name": "Fiber",
           "Qty": 10
+        }
+      ]
+    },
+    {
+      "Name": "Boaratos Saddle",
+      "Category": "Saddles",
+      "CraftedIn": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Helicoprion Saddle",
+        "Tek Replicator"
+      ],
+      "RequiredLevel": 66,
+      "EngramPoints": 35,
+      "CraftingTime": 0,
+      "Dlc": "Astraeos",
+      "Ingredients": [
+        {
+          "Name": "Hide",
+          "Qty": 250
+        },
+        {
+          "Name": "Fiber",
+          "Qty": 300
+        },
+        {
+          "Name": "Metal Ingot or Scrap Metal Ingot",
+          "Qty": 50
+        },
+        {
+          "Name": "Obsidian",
+          "Qty": 50
         }
       ]
     },
@@ -36672,6 +37499,27 @@
         {
           "Name": "Bunny Egg",
           "Qty": 50
+        }
+      ]
+    },
+    {
+      "Name": "Burrowbuck Ghost Costume",
+      "Category": "Skins",
+      "CraftedIn": [
+        "Smithy"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 0,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Ectoplasm (Burrowbuck)",
+          "Qty": 1
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 25
         }
       ]
     },
@@ -37496,6 +38344,36 @@
       ]
     },
     {
+      "Name": "Cerberax Saddle",
+      "Category": "Saddles",
+      "CraftedIn": [
+        "Smithy",
+        "Castoroides Saddle",
+        "Argentavis Saddle",
+        "Thorny Dragon Saddle",
+        "Helicoprion Saddle",
+        "Tek Replicator"
+      ],
+      "RequiredLevel": 74,
+      "EngramPoints": 40,
+      "CraftingTime": 0,
+      "Dlc": "Fantastic Tames Season 1",
+      "Ingredients": [
+        {
+          "Name": "Hide",
+          "Qty": 550
+        },
+        {
+          "Name": "Fiber",
+          "Qty": 350
+        },
+        {
+          "Name": "Metal Ingot or Scrap Metal Ingot",
+          "Qty": 300
+        }
+      ]
+    },
+    {
       "Name": "Chain Bola",
       "Category": "Ammunition",
       "CraftedIn": [
@@ -38056,7 +38934,7 @@
       "RequiredLevel": 91,
       "EngramPoints": 29,
       "CraftingTime": 0,
-      "Dlc": "ARK: Bob\u0027s Tall Tales",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Black Pearl",
@@ -38908,6 +39786,7 @@
       "Name": "Corrosive Ship Cannonball",
       "Category": "Ammunition",
       "CraftedIn": [
+        "Smithy",
         "Argentavis Saddle",
         "Castoroides Saddle",
         "Thorny Dragon Saddle",
@@ -39045,7 +39924,8 @@
       "Name": "Cryo Hospital",
       "Category": "Containers",
       "CraftedIn": [
-        "Tek Replicator"
+        "Tek Replicator",
+        "Exo-Mek"
       ],
       "RequiredLevel": 75,
       "EngramPoints": 20,
@@ -39831,27 +40711,6 @@
       ],
       "RequiredLevel": 0,
       "EngramPoints": 0,
-      "CraftingTime": 5,
-      "Dlc": "",
-      "Ingredients": [
-        {
-          "Name": "Gravestone",
-          "Qty": 20
-        },
-        {
-          "Name": "Dinosaur Bone",
-          "Qty": 5
-        }
-      ]
-    },
-    {
-      "Name": "Dino Candy",
-      "Category": "Consumables",
-      "CraftedIn": [
-        "Cooking Pot"
-      ],
-      "RequiredLevel": 0,
-      "EngramPoints": 0,
       "CraftingTime": 0,
       "Dlc": "",
       "Ingredients": [
@@ -39875,6 +40734,27 @@
         {
           "Name": "Cooked Meat, Cooked Fish Meat, or Cooked Meat Jerky",
           "Qty": 50
+        }
+      ]
+    },
+    {
+      "Name": "Dino Candy",
+      "Category": "Consumables",
+      "CraftedIn": [
+        "Cooking Pot"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 5,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Gravestone",
+          "Qty": 20
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 5
         }
       ]
     },
@@ -40654,12 +41534,8 @@
       "Dlc": "",
       "Ingredients": [
         {
-          "Name": "Mutagen Ooze",
-          "Qty": 10
-        },
-        {
           "Name": "Dinosaur Bone",
-          "Qty": 10
+          "Qty": 50
         }
       ]
     },
@@ -42685,6 +43561,65 @@
       ]
     },
     {
+      "Name": "Gargantar Ghost Costume",
+      "Category": "Skins",
+      "CraftedIn": [
+        "Smithy"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 0,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Ectoplasm (Gargantar)",
+          "Qty": 1
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 25
+        }
+      ]
+    },
+    {
+      "Name": "Gargantar Saddle",
+      "Category": "Saddles",
+      "CraftedIn": [
+        "Smithy",
+        "Argentavis Saddle",
+        "Castoroides Saddle",
+        "Thorny Dragon Saddle",
+        "Helicoprion Saddle",
+        "Tek Replicator"
+      ],
+      "RequiredLevel": 52,
+      "EngramPoints": 16,
+      "CraftingTime": 0,
+      "Dlc": "Dragontopia",
+      "Ingredients": [
+        {
+          "Name": "Hide",
+          "Qty": 220
+        },
+        {
+          "Name": "Fiber",
+          "Qty": 450
+        },
+        {
+          "Name": "Wood or Fungal Wood",
+          "Qty": 125
+        },
+        {
+          "Name": "Thatch",
+          "Qty": 85
+        },
+        {
+          "Name": "Metal Ingot or Scrap Metal Ingot",
+          "Qty": 85
+        }
+      ]
+    },
+    {
       "Name": "Gas Collector",
       "Category": "",
       "CraftedIn": [
@@ -42855,7 +43790,7 @@
       "RequiredLevel": 86,
       "EngramPoints": 17,
       "CraftingTime": 0,
-      "Dlc": "ARK: Bob\u0027s Tall Tales",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Cementing Paste",
@@ -44703,8 +45638,8 @@
         "Helicoprion Saddle",
         "Tek Replicator"
       ],
-      "RequiredLevel": 76,
-      "EngramPoints": 43,
+      "RequiredLevel": 91,
+      "EngramPoints": 50,
       "CraftingTime": 10,
       "Dlc": "",
       "Ingredients": [
@@ -45412,6 +46347,7 @@
       "Name": "Incendiary Ship Cannonball",
       "Category": "Ammunition",
       "CraftedIn": [
+        "Smithy",
         "Argentavis Saddle",
         "Castoroides Saddle",
         "Thorny Dragon Saddle",
@@ -46516,7 +47452,7 @@
       "RequiredLevel": 51,
       "EngramPoints": 9,
       "CraftingTime": 0,
-      "Dlc": "ARK: Bob\u0027s Tall Tales",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Fiber",
@@ -47207,7 +48143,7 @@
           "Qty": 180
         },
         {
-          "Name": "Chitin or Keratin",
+          "Name": "Chitin, Keratin, or Shell Fragment",
           "Qty": 60
         }
       ]
@@ -47830,6 +48766,27 @@
         {
           "Name": "Metal Ingot or Scrap Metal Ingot",
           "Qty": 30
+        }
+      ]
+    },
+    {
+      "Name": "Megaraptor Ghost Costume",
+      "Category": "Skins",
+      "CraftedIn": [
+        "Smithy"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 0,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Ectoplasm (Megaraptor)",
+          "Qty": 1
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 25
         }
       ]
     },
@@ -50399,7 +51356,7 @@
         "Helicoprion Saddle",
         "Tek Replicator"
       ],
-      "RequiredLevel": 76,
+      "RequiredLevel": 74,
       "EngramPoints": 40,
       "CraftingTime": 0,
       "Dlc": "Lost Colony",
@@ -52431,6 +53388,7 @@
       "Name": "Reinforced Ship Cannonball",
       "Category": "Ammunition",
       "CraftedIn": [
+        "Smithy",
         "Argentavis Saddle",
         "Castoroides Saddle",
         "Thorny Dragon Saddle",
@@ -53345,7 +54303,7 @@
       "RequiredLevel": 31,
       "EngramPoints": 13,
       "CraftingTime": 0,
-      "Dlc": "ARK: Bob\u0027s Tall Tales",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Metal Ingot or Scrap Metal Ingot",
@@ -59572,7 +60530,7 @@
       "RequiredLevel": 103,
       "EngramPoints": 30,
       "CraftingTime": 0,
-      "Dlc": "ARK: Bob\u0027s Tall Tales",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Electronics",
@@ -59815,6 +60773,27 @@
       ]
     },
     {
+      "Name": "Therizinosaurus Ghost Costume",
+      "Category": "Skins",
+      "CraftedIn": [
+        "Smithy"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 0,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Ectoplasm (Therizinosaurus)",
+          "Qty": 1
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 25
+        }
+      ]
+    },
+    {
       "Name": "Therizinosaurus Saddle",
       "Category": "Saddles",
       "CraftedIn": [
@@ -59934,6 +60913,27 @@
       ]
     },
     {
+      "Name": "Tidepup Ghost Costume",
+      "Category": "Skins",
+      "CraftedIn": [
+        "Smithy"
+      ],
+      "RequiredLevel": 0,
+      "EngramPoints": 0,
+      "CraftingTime": 0,
+      "Dlc": "",
+      "Ingredients": [
+        {
+          "Name": "Ectoplasm (Tidepup)",
+          "Qty": 1
+        },
+        {
+          "Name": "Dinosaur Bone",
+          "Qty": 25
+        }
+      ]
+    },
+    {
       "Name": "Tidepup Saddle",
       "Category": "Saddles",
       "CraftedIn": [
@@ -60035,6 +61035,33 @@
         {
           "Name": "Fiber",
           "Qty": 2000
+        }
+      ]
+    },
+    {
+      "Name": "TOF Lights",
+      "Category": "Structures",
+      "CraftedIn": [
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
+      ],
+      "RequiredLevel": 48,
+      "EngramPoints": 10,
+      "CraftingTime": 0,
+      "Dlc": "Tides of Fortune",
+      "Ingredients": [
+        {
+          "Name": "Metal Ingot or Scrap Metal Ingot",
+          "Qty": 10
+        },
+        {
+          "Name": "Crystal or Primal Crystal",
+          "Qty": 8
+        },
+        {
+          "Name": "Electronics",
+          "Qty": 1
         }
       ]
     },
@@ -60144,7 +61171,7 @@
       "RequiredLevel": 43,
       "EngramPoints": 35,
       "CraftingTime": 5,
-      "Dlc": "",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Metal Ingot",
@@ -61365,6 +62392,42 @@
       ]
     },
     {
+      "Name": "Unstable Red Element",
+      "Category": "Resources",
+      "CraftedIn": [
+        "Inventory",
+        "Bloodforge"
+      ],
+      "RequiredLevel": 58,
+      "EngramPoints": 6,
+      "CraftingTime": 30,
+      "Dlc": "Lost Colony",
+      "Ingredients": [
+        {
+          "Name": "Red Element Dust",
+          "Qty": 1000
+        }
+      ]
+    },
+    {
+      "Name": "Unstable Red Element Shard",
+      "Category": "Resources",
+      "CraftedIn": [
+        "Inventory",
+        "Bloodforge"
+      ],
+      "RequiredLevel": 55,
+      "EngramPoints": 6,
+      "CraftingTime": 5,
+      "Dlc": "Lost Colony",
+      "Ingredients": [
+        {
+          "Name": "Red Element Dust",
+          "Qty": 10
+        }
+      ]
+    },
+    {
       "Name": "Vacuum Compartment",
       "Category": "Tek",
       "CraftedIn": [
@@ -61671,7 +62734,9 @@
       "Name": "Warbench",
       "Category": "",
       "CraftedIn": [
-        "Fabricator"
+        "Fabricator",
+        "Tek Replicator",
+        "Exo-Mek"
       ],
       "RequiredLevel": 64,
       "EngramPoints": 21,
@@ -61687,7 +62752,7 @@
           "Qty": 150
         },
         {
-          "Name": "Wood",
+          "Name": "Wood or Fungal Wood",
           "Qty": 600
         },
         {
@@ -61695,7 +62760,7 @@
           "Qty": 400
         },
         {
-          "Name": "Polymer",
+          "Name": "Polymer, Organic Polymer, or Corrupted Nodule",
           "Qty": 120
         }
       ]
@@ -61815,7 +62880,7 @@
       "RequiredLevel": 53,
       "EngramPoints": 25,
       "CraftingTime": 0,
-      "Dlc": "",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Metal Ingot or Scrap Metal Ingot",
@@ -62024,7 +63089,7 @@
       "RequiredLevel": 55,
       "EngramPoints": 20,
       "CraftingTime": 0,
-      "Dlc": "ARK: Bob\u0027s Tall Tales",
+      "Dlc": "Bob\u0027s Tall Tales",
       "Ingredients": [
         {
           "Name": "Cementing Paste",
@@ -63093,8 +64158,8 @@
         "Tek Replicator",
         "Exo-Mek"
       ],
-      "RequiredLevel": 60,
-      "EngramPoints": 40,
+      "RequiredLevel": 55,
+      "EngramPoints": 15,
       "CraftingTime": 0,
       "Dlc": "",
       "Ingredients": [
@@ -64190,7 +65255,7 @@
     },
     {
       "Resource": "Chitin or Keratin",
-      "Icon": "Chitin.png",
+      "Icon": "Chitin or Keratin.png",
       "Gatherers": [
         {
           "Name": "Chainsaw",
@@ -67526,7 +68591,6 @@
     "Flint": "Flint.png",
     "Obsidian": "Obsidian.png",
     "Element or Red Element": "Element.png",
-    "Polymer or Organic Polymer": "Polymer.png",
     "Box o\u0027 Chocolates": "Box o\u0027 Chocolates.png",
     "Valentines Dino Candy": "Valentines Dino Candy.png",
     "Love Heart": "Love Heart.png",
@@ -67552,6 +68616,7 @@
     "Charcoal": "Charcoal.png",
     "Narcoberry": "Narcoberry.png",
     "Polymer": "Polymer.png",
+    "Ectoplasm (Bloodstalker)": "Ectoplasm (Bloodstalker).png",
     "Azulberry": "Azulberry.png",
     "Mistletoe": "Mistletoe.png",
     "Coal": "Coal.png",
@@ -67564,6 +68629,7 @@
     "Narcotic": "Narcotic.png",
     "Ectoplasm (Bulbdog)": "Ectoplasm (Bulbdog).png",
     "Bunny Egg": "Bunny Egg.png",
+    "Ectoplasm (Burrowbuck)": "Ectoplasm (Burrowbuck).png",
     "Cactus Sap or Blood Sap": "Cactus Sap.png",
     "Wood": "Wood.png",
     "Ectoplasm (Cat)": "Ectoplasm (Cat).png",
@@ -67598,6 +68664,7 @@
     "Feces": "Feces.png",
     "Stone Arrow": "Stone Arrow.png",
     "Crystal": "Crystal.png",
+    "Ectoplasm (Gargantar)": "Ectoplasm (Gargantar).png",
     "Absorbent Substrate": "Absorbent Substrate.png",
     "Organic Polymer or Corrupted Nodule": "Organic Polymer.png",
     "Ectoplasm (Gigantoraptor)": "Ectoplasm (Gigantoraptor).png",
@@ -67613,9 +68680,9 @@
     "Leech Blood or Horns": "Leech Blood.png",
     "Ammonite Bile": "Ammonite Bile.png",
     "Tusoteuthis Tentacle": "Tusoteuthis Tentacle.png",
-    "Chitin or Keratin": "Chitin.png",
     "Ectoplasm (Mantis)": "Ectoplasm (Mantis).png",
     "Ectoplasm (Megalodon)": "Ectoplasm (Megalodon).png",
+    "Ectoplasm (Megaraptor)": "Ectoplasm (Megaraptor).png",
     "Mutagen": "Mutagen.png",
     "Mutagel": "Mutagel.png",
     "Cooked Supreme Fish Meat": "Cooked Supreme Fish Meat.png",
@@ -67637,10 +68704,13 @@
     "Ectoplasm (Spino)": "Ectoplasm (Spino).png",
     "Flovis Flower": "Flovis Flower.png",
     "Large Egg": "Large Egg.png",
+    "Ectoplasm (Therizinosaurus)": "Ectoplasm (Therizinosaurus).png",
+    "Ectoplasm (Tidepup)": "Ectoplasm (Tidepup).png",
     "Spear Bolt": "Spear Bolt.png",
     "Thalassian Ammo": "Thalassian Ammo.png",
     "Simple Rifle Ammo": "Simple Rifle Ammo.png",
     "Element Dust": "Element Dust.png",
+    "Red Element Dust": "Red Element Dust.png",
     "Ectoplasm (Veilwyn)": "Ectoplasm (Veilwyn).png",
     "Ectoplasm (Yi Ling)": "Ectoplasm (Yi Ling).png",
     "Acro Saddle": "Acro Saddle.png",
@@ -67777,6 +68847,7 @@
     "Bloodforge": "Bloodforge.png",
     "Blue Coloring": "Blue Coloring.png",
     "Blue-Ball Winter Beanie Skin": "Blue-Ball Winter Beanie Skin.png",
+    "Boaratos Saddle": "Boaratos Saddle.png",
     "Bola": "Bola.png",
     "Bonnet Hat Skin": "Bonnet Hat Skin.png",
     "Bookshelf": "Bookshelf.png",
@@ -67824,6 +68895,7 @@
     "Catapult Turret": "Catapult Turret.png",
     "Ceratosaurus Ghost Costume": "Ceratosaurus Ghost Costume.png",
     "Ceratosaurus Saddle": "Ceratosaurus Saddle.png",
+    "Cerberax Saddle": "Cerberax Saddle.png",
     "Chain Bola": "Chain Bola.png",
     "Chainsaw": "Chainsaw.png",
     "Chalicotherium Saddle": "Chalicotherium Saddle.png",
@@ -67997,6 +69069,7 @@
     "Gacha Saddle": "Gacha Saddle.png",
     "Galleon": "Galleon.png",
     "Gallimimus Saddle": "Gallimimus Saddle.png",
+    "Gargantar Saddle": "Gargantar Saddle.png",
     "Gas Collector": "Gas Collector.png",
     "Gas Mask": "Gas Mask.png",
     "Gasbags Saddle": "Gasbags Saddle.png",
@@ -68329,7 +69402,6 @@
     "Reaper Swim Top Skin": "Reaper Swim Top Skin.png",
     "Reaper-Print Shirt Skin": "Reaper-Print Shirt Skin.png",
     "Red Coloring": "Red Coloring.png",
-    "Red Element Dust": "Red Element Dust.png",
     "Red Element Shard": "Red Element Shard.png",
     "Red-Ball Winter Beanie Skin": "Red-Ball Winter Beanie Skin.png",
     "Refining Forge": "Refining Forge.png",
@@ -68592,6 +69664,7 @@
     "Tidepup Saddle": "Tidepup Saddle.png",
     "Tinkering Desk": "Tinkering Desk.png",
     "Titanosaur Platform Saddle": "Titanosaur Platform Saddle.png",
+    "TOF Lights": "TOF Lights.png",
     "Toilet": "Toilet.png",
     "Torch": "Torch.png",
     "Torch Sparkler Skin": "Torch Sparkler Skin.png",
@@ -68642,6 +69715,8 @@
     "Underwater Crop Plot": "Underwater Crop Plot.png",
     "Unstable Element": "Unstable Element.png",
     "Unstable Element Shard": "Unstable Element Shard.png",
+    "Unstable Red Element": "Unstable Red Element.png",
+    "Unstable Red Element Shard": "Unstable Red Element Shard.png",
     "Vacuum Compartment": "Vacuum Compartment.png",
     "Vacuum Compartment Moonpool": "Vacuum Compartment Moonpool.png",
     "Vampire Dodo Swim Bottom Skin": "Vampire Dodo Swim Bottom Skin.png",
@@ -68721,6 +69796,7 @@
     "Excavation Rig": "Excavation Rig.png",
     "Blue Crystalized Sap": "Blue Crystalized Sap.png",
     "Cactus Sap": "Cactus Sap.png",
+    "Chitin or Keratin": "Chitin or Keratin.png",
     "Corrupted Nodule": "Corrupted Nodule.png",
     "Leech Blood": "Leech Blood.png",
     "Organic Polymer": "Organic Polymer.png",
