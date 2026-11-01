@@ -570,6 +570,28 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
 .tr-tag { display: inline-block; background: var(--panel-alt); border: 1px solid var(--line); color: var(--fg); border-radius: 10px; padding: 1px 8px; font: inherit; font-size: 12px; margin-right: 3px; }
 .tr-tag.eu { border-color: #D79E14; color: var(--accent); }
 .tr-tag.fora { border-style: dashed; color: var(--fg-dim); cursor: pointer; }
+.tr-visao { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.tr-visao button { background: var(--panel-alt); color: var(--fg-dim); border: 0; padding: 7px 12px; font: inherit; cursor: pointer; }
+.tr-visao button.on { background: var(--accent); color: #2b1f00; font-weight: 700; }
+/* 8 por linha numa tela comum; menos colunas quando a tela estreita. */
+.tr-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); gap: 10px; }
+.tr-card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; cursor: pointer; display: flex; flex-direction: column; min-width: 0; }
+.tr-card:hover { border-color: #D79E14; }
+.tr-foto { position: relative; height: 112px; background: var(--bg); display: flex; align-items: center; justify-content: center; padding: 8px; }
+.tr-foto img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.tr-foto img.tr-icone { width: 56px; height: 56px; opacity: .8; }
+.tr-nivel { position: absolute; top: 6px; left: 6px; background: var(--accent); color: #2b1f00; font-size: 11px; font-weight: 700; padding: 1px 6px; border-radius: 5px; }
+.tr-sexo { position: absolute; top: 4px; right: 7px; font-size: 15px; font-weight: 700; }
+.tr-card-nome { padding: 6px 8px 0; font-weight: 700; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: left; }
+.tr-card-padrao { padding: 0 8px; font-size: 11px; color: var(--accent); text-align: left; }
+.tr-card-st { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; padding: 6px 7px 4px; }
+.tr-card-st div { display: flex; justify-content: space-between; gap: 4px; background: var(--panel-alt); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 11px; }
+.tr-card-st span { color: var(--fg-dim); }
+.tr-card-cores { display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; padding: 2px 7px 6px; }
+.tr-card-cores span { font-size: 10px; text-align: center; border-radius: 3px; border: 1px solid #ffffff30; padding: 1px 0; font-weight: 700; }
+.tr-card-dono { margin-top: auto; display: flex; justify-content: space-between; gap: 6px; padding: 5px 8px; border-top: 1px solid var(--line); font-size: 11px; color: var(--fg-dim); }
+.tr-card-dono b { color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tr-card-dono b.eu { color: var(--accent); }
 button.tr-tag { cursor: pointer; }
 .tr-rodape { display: flex; flex-wrap: wrap; gap: 20px; padding: 8px 12px; color: var(--fg-dim); font-size: 12px; background: var(--panel); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 10px 10px; }
 .tr-padroes { max-width: 640px; }

@@ -215,6 +215,35 @@
         d.drawImage(img, 0, 0);
     }
 
+    // A foto dos cards do catálogo: o dino pintado, recortado na borda do que é
+    // visível e reduzido, devolvido como data URL para o card guardar.
+    function recortarDino(dino, w, h, maxW, maxH) {
+        const img = imagemDeBgra(dino, w, h);
+        if (!img) return "";
+        let x0 = w, y0 = h, x1 = -1, y1 = -1;
+        for (let y = 0; y < h; y++) {
+            const linha = y * w * 4;
+            for (let x = 0; x < w; x++) {
+                if (dino[linha + x * 4 + 3] > 16) {
+                    if (x < x0) x0 = x;
+                    if (x > x1) x1 = x;
+                    if (y < y0) y0 = y;
+                    if (y > y1) y1 = y;
+                }
+            }
+        }
+        if (x1 < 0) return "";
+        const cw = x1 - x0 + 1, ch = y1 - y0 + 1;
+        const k = Math.min(1, maxW / cw, maxH / ch);
+        const c = document.createElement("canvas");
+        c.width = Math.max(1, Math.round(cw * k));
+        c.height = Math.max(1, Math.round(ch * k));
+        const d = c.getContext("2d");
+        d.imageSmoothingQuality = "high";
+        d.drawImage(img, x0, y0, cw, ch, 0, 0, c.width, c.height);
+        return c.toDataURL("image/webp", 0.85);
+    }
+
     // ------------------------------------------------------------ exportar
 
     function exportar(id, nome) {
@@ -223,5 +252,5 @@
         canvas.toBlob(blob => baixar(blob, nome), "image/png");
     }
 
-    window.blueBeesArte = { mascara, medir, pintar, pintarDino, exportar, registrar, exportarDesenho };
+    window.blueBeesArte = { mascara, medir, pintar, pintarDino, recortarDino, exportar, registrar, exportarDesenho };
 })();
