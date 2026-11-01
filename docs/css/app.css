@@ -322,7 +322,7 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
     /* O nome tem teto: sem ele, numa tela larga a coluna engolia o espaco e Dia
        e "No ar ha" ficavam espremidos e grudados. Mapa e Cluster dividem a sobra;
        as colunas de numero tem largura fixa. */
-    grid-template-columns: 28px 96px minmax(220px, 1.8fr) minmax(110px, 1fr) 56px 84px 72px 96px minmax(110px, 1fr);
+    grid-template-columns: 28px 96px minmax(220px, 1.8fr) minmax(110px, 1fr) 56px 84px 72px 96px 92px 80px minmax(110px, 1fr);
     align-items: center;
     height: 34px;
     padding: 0 12px 0 8px;
@@ -485,8 +485,9 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
     .srv-lista { border-right: none; }
     .srv.com-ficha .srv-lista { display: none; }
     .srv.com-ficha .ficha { display: block; }
-    .srv-linha { grid-template-columns: 24px 20px minmax(0, 1fr) 54px 72px; font-size: 12px; }
-    .srv-linha .col-mapa, .srv-linha .col-modo, .srv-linha .col-dia, .srv-linha .col-cluster { display: none; }
+    .srv-linha { grid-template-columns: 24px 20px minmax(0, 1fr) 54px 72px 44px; font-size: 12px; }
+    .srv-linha .col-mapa, .srv-linha .col-modo, .srv-linha .col-dia, .srv-linha .col-cluster,
+    .srv-linha .col-dura { display: none; }
     .srv-linha .col-status { font-size: 0; }
     .filtros select { flex: 1 1 40%; max-width: none; min-width: 0; }
     .topo { flex-wrap: wrap; row-gap: 4px; }
@@ -500,8 +501,8 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
 /* Tela media: a ficha dos servidores aperta a lista; some o cluster. */
 @media (max-width: 1100px) and (min-width: 761px) {
     .srv { grid-template-columns: 1fr 280px; }
-    .srv-linha { grid-template-columns: 28px 92px minmax(160px, 1.6fr) minmax(90px, 1fr) 48px 76px 92px; gap: 10px; }
-    .srv-linha .col-cluster, .srv-linha .col-dia { display: none; }
+    .srv-linha { grid-template-columns: 28px 92px minmax(160px, 1.6fr) minmax(90px, 1fr) 48px 76px 92px 64px; gap: 10px; }
+    .srv-linha .col-cluster, .srv-linha .col-dia, .srv-linha .col-dura { display: none; }
     .arte-controles { grid-template-columns: minmax(0, 1fr); }
 }
 
