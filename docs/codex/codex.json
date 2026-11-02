@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-10-30T08:43:44.1571782Z",
+  "GeneratedUtc": "2026-11-02T20:10:18.6781231Z",
   "Source": "ARK Wiki (ark.wiki.gg)",
   "License": "CC BY-NC-SA 4.0",
   "Creatures": [
@@ -1597,23 +1597,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Shell"
+          "Name": "Shell",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Shell Highlights"
+          "Name": "Shell Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripe"
+          "Name": "Stripe",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -1688,7 +1693,28 @@
         "Gestation": 0,
         "BabyTime": 33333.333333333
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Dark Markings",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Stripe",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Tummy",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1300,
         "Stamina": 400,
@@ -1753,15 +1779,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -2074,19 +2103,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": false
         },
         {
           "Id": 2,
-          "Name": "Belly and Foot Scales"
+          "Name": "Belly and Foot Scales",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Fins and Wings"
+          "Name": "Fins and Wings",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Belly Detail"
+          "Name": "Belly Detail",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -2211,15 +2244,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -2284,15 +2320,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -2357,19 +2396,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": false
         },
         {
           "Id": 2,
-          "Name": "Spinal Ridge"
+          "Name": "Spinal Ridge",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -2453,23 +2496,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Accent"
+          "Name": "Body Accent",
+          "Asa": false
         },
         {
           "Id": 1,
-          "Name": "Feather Tips"
+          "Name": "Feather Tips",
+          "Asa": false
         },
         {
           "Id": 3,
-          "Name": "Body and Feathers"
+          "Name": "Body and Feathers",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -2556,23 +2604,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": false
         },
         {
           "Id": 1,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": false
         },
         {
           "Id": 3,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -2822,19 +2875,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Shell"
+          "Name": "Shell",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Tentacle Highlights"
+          "Name": "Tentacle Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Shell Highlights"
+          "Name": "Shell Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Tentacles"
+          "Name": "Tentacles",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -2945,7 +3002,23 @@
         "Gestation": 0,
         "BabyTime": 13333.3328125
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Spots",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Tail fin and Accents",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 450,
         "Stamina": 240,
@@ -3060,27 +3133,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spikes"
+          "Name": "Spikes",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Leg Plates"
+          "Name": "Leg Plates",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Spike Tips"
+          "Name": "Spike Tips",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Head and Back"
+          "Name": "Head and Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -3196,19 +3275,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Stripes and Legs"
+          "Name": "Stripes and Legs",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Pimples",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "R3",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spots, Tips and Fangs"
+          "Name": "Spots, Tips and Fangs",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -3307,19 +3400,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Sides, Tail, Wings and Face"
+          "Name": "Sides, Tail, Wings and Face",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Top and Wing Tips"
+          "Name": "Top and Wing Tips",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside and Accents"
+          "Name": "Underside and Accents",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -3414,7 +3511,28 @@
         "Gestation": 0,
         "BabyTime": 66666.666666667
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Carapace Rim",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Carapace Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly and Highlights",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1400,
         "Stamina": 775,
@@ -3479,23 +3597,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Wing Tips"
+          "Name": "Wing Tips",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Head Feathers"
+          "Name": "Head Feathers",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -3603,7 +3726,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Skin",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Fur Highlight",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Fur Back",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Armor",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Fur Main",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 200,
         "Stamina": 260,
@@ -3668,27 +3817,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Segments"
+          "Name": "Segments",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Head"
+          "Name": "Head",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Sternites"
+          "Name": "Sternites",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Legs, Antennae and Forcipules"
+          "Name": "Legs, Antennae and Forcipules",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Carapace Stripe"
+          "Name": "Carapace Stripe",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside of Head/Segments"
+          "Name": "Underside of Head/Segments",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -4167,7 +4322,33 @@
       "Saddle": "Aureliax Saddle",
       "SaddleLevel": 85,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Upper Fur, Innter Stripes, Horn Base, and Frill Secondary",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Horns",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Outer Stripes and Frill",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Lower Body",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1250,
         "Stamina": 800,
@@ -4270,19 +4451,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spines"
+          "Name": "Spines",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -4374,23 +4559,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Horns"
+          "Name": "Horns",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Emissive"
+          "Name": "Emissive",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -4517,11 +4707,13 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Topside"
+          "Name": "Topside",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -4624,19 +4816,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spikes"
+          "Name": "Spikes",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly and Accents"
+          "Name": "Belly and Accents",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -4864,7 +5060,33 @@
       "Saddle": "Bison Saddle",
       "SaddleLevel": 50,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Skin",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Fur Accent",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Horn Tips",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Horn Base",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Fur",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 800,
         "Stamina": 500,
@@ -4973,19 +5195,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Back Plates"
+          "Name": "Back Plates",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Arms"
+          "Name": "Arms",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Skin Flap"
+          "Name": "Skin Flap",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -5062,7 +5288,33 @@
       "Saddle": "Boaratos Saddle",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Back Fur",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Tusks and Hooves",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Fur Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Stripes and Belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1050,
         "Stamina": 400,
@@ -5112,19 +5364,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -6344,23 +6600,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Spots"
-        },
-        {
-          "Id": 3,
-          "Name": "Lantern"
+          "Name": "Spots",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Back Stripes"
+          "Name": "Back Stripes",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -6576,7 +6832,33 @@
       "Saddle": "Burrowbuck Saddle",
       "SaddleLevel": 33,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Eyes",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Spots",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Back",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 550,
         "Stamina": 500,
@@ -6660,19 +6942,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Shell Base"
+          "Name": "Shell Base",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Shell,  Plates and Claws"
+          "Name": "Shell,  Plates and Claws",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Accent"
+          "Name": "Body Accent",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -6769,23 +7055,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Spikes"
+          "Name": "Spikes",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Membrane"
+          "Name": "Membrane",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Spots"
+          "Name": "Spots",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -6849,7 +7140,28 @@
         "Gestation": 0,
         "BabyTime": 16666.665625
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Horns",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 420,
         "Stamina": 300,
@@ -6945,19 +7257,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Feet"
+          "Name": "Feet",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripe"
+          "Name": "Stripe",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Tail"
+          "Name": "Tail",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -7045,7 +7361,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Pattern",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 125,
         "Stamina": 100,
@@ -7264,15 +7596,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Fur Highlights"
+          "Name": "Fur Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stripes and Belly"
+          "Name": "Stripes and Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -7462,7 +7797,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Fins",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Patterning",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 30,
         "Stamina": 100,
@@ -7531,19 +7882,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Feathers"
+          "Name": "Feathers",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -7637,7 +7992,23 @@
       "Saddle": "Conca Saddle",
       "SaddleLevel": 67,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "UnderBelly/Fur",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Main Body",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 425,
         "Stamina": 350,
@@ -7741,15 +8112,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Horns",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -7773,15 +8152,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Fur Highlights"
+          "Name": "Fur Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stripes and Belly"
+          "Name": "Stripes and Belly",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -7843,15 +8225,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "R3",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Face and Wing Membrane"
+          "Name": "Face and Wing Membrane",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Feathers"
+          "Name": "Feathers",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -7910,7 +8300,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Back",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Underside",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -7932,27 +8338,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Patterning"
-        },
-        {
-          "Id": 1,
-          "Name": "Wing Base"
+          "Name": "Patterning",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Face, Crest and Hands"
+          "Name": "Face, Crest and Hands",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Inner Crest"
-        },
-        {
-          "Id": 4,
-          "Name": "Wing Membrane"
+          "Name": "Inner Crest",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -7976,15 +8378,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Accent"
+          "Name": "Body Accent",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -8005,7 +8410,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Underbelly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Back",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -8027,19 +8453,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Dark Muted-g"
+          "Name": "Dark Muted-g",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Dark Muted-g"
+          "Name": "Dark Muted-g",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Dark Muted-g"
+          "Name": "Dark Muted-g",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Dark Muted-g"
+          "Name": "Dark Muted-g",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -8060,7 +8490,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Back Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Scales",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -8082,19 +8533,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Sail Edge"
+          "Name": "Sail Edge",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Face, Tail, Inner Sail, and Frill"
+          "Name": "Face, Tail, Inner Sail, and Frill",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -8175,7 +8630,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "top",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "scale edges",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "back",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "belly",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -8213,7 +8694,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Leg Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Back Inner",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Fur Main",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Fur Accent",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 115,
         "Stamina": 100,
@@ -8269,7 +8776,28 @@
       "Saddle": "Cryolophosaurus Saddle",
       "SaddleLevel": 60,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Crest",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Hair",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body Accents",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 500,
         "Stamina": 350,
@@ -8570,15 +9098,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Fur"
+          "Name": "Fur",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Top"
+          "Name": "Top",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -8762,19 +9293,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Head and Sides"
+          "Name": "Head and Sides",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Claws"
+          "Name": "Claws",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back and Spikes"
+          "Name": "Back and Spikes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -8845,23 +9380,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Feather Accents"
+          "Name": "Feather Accents",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Feathers Main"
+          "Name": "Feathers Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -9125,23 +9665,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Arms and Mouth"
+          "Name": "Arms and Mouth",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Stripe"
+          "Name": "Stripe",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Wing Veins"
+          "Name": "Wing Veins",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Wings"
+          "Name": "Wings",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -9205,7 +9750,38 @@
         "Gestation": 0,
         "BabyTime": 7575.7570313
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Back and Face",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Spike Tips",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Spine and Spike Base",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Frill, Crest and Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Legs and Arms",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 130,
         "Stamina": 100,
@@ -9301,23 +9877,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Side Fin"
+          "Name": "Side Fin",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Sail"
+          "Name": "Sail",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Sail Spines"
+          "Name": "Sail Spines",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Legs and Belly"
+          "Name": "Legs and Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -9412,7 +9993,23 @@
         "Gestation": 0,
         "BabyTime": 9009.0085938
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Face and Wing Membrane",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Feathers",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 125,
         "Stamina": 150,
@@ -9667,19 +10264,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Fins"
+          "Name": "Fins",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -9777,19 +10378,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main"
+          "Name": "Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spikes"
+          "Name": "Spikes",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -9890,11 +10495,13 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Back and Head"
+          "Name": "Back and Head",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly and Legs"
+          "Name": "Belly and Legs",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -10025,15 +10632,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Tail, Back and Face"
+          "Name": "Tail, Back and Face",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Feet"
+          "Name": "Feet",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -10169,27 +10779,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Face"
+          "Name": "Face",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Beak"
+          "Name": "Beak",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Forehead, Neck and Feet"
+          "Name": "Forehead, Neck and Feet",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Head"
+          "Name": "Head",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Wings and Patterning"
+          "Name": "Wings and Patterning",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -10368,19 +10984,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Shell and Plates"
+          "Name": "Shell and Plates",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spikes and Claws"
+          "Name": "Spikes and Claws",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Shell Patterning"
+          "Name": "Shell Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -10603,7 +11223,38 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "BodyMain",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "feathers",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "scales",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "feather tips",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "back",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1000,
         "Stamina": 600,
@@ -10659,7 +11310,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Outline Stripes",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Secondary Pattern",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Stripes",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 100000,
         "Stamina": 300,
@@ -10718,23 +11390,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Shell"
+          "Name": "Shell",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Palps and Leg Patterning"
+          "Name": "Palps and Leg Patterning",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Shell Patterning"
+          "Name": "Shell Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -10838,15 +11515,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "R1",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "R3",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spots"
+          "Name": "Spots",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Head"
+          "Name": "Head",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -10959,7 +11649,38 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Wood Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Flowers",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Glow and Butterflies",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Mushrooms",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Wood Details",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Wood Details",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 800,
         "Stamina": 350,
@@ -11024,23 +11745,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Fins"
+          "Name": "Fins",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Spots"
+          "Name": "Spots",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Fin Highlight"
+          "Name": "Fin Highlight",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -11181,15 +11907,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Algae"
+          "Name": "Algae",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Metal"
+          "Name": "Metal",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -11330,7 +12059,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 1,
+          "Name": "top",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "unknown",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "scale edges",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "back",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 2500,
         "Stamina": 150,
@@ -11380,15 +12135,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Legs and Beard"
+          "Name": "Legs and Beard",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -11524,23 +12282,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Cephalothorax and Tail Flippers"
+          "Name": "Cephalothorax and Tail Flippers",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Claws, Paddles and Legs"
+          "Name": "Claws, Paddles and Legs",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Stinger"
+          "Name": "Stinger",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Chelicerae and Appendage Shading"
+          "Name": "Chelicerae and Appendage Shading",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "R4",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Abdomen"
+          "Name": "Abdomen",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -11643,7 +12411,33 @@
       "Saddle": "Fasolasuchus Saddle",
       "SaddleLevel": 70,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Spots",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Spikes",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Underside",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Spine",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 950,
         "Stamina": 350,
@@ -11708,19 +12502,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Emissive"
+          "Name": "Emissive",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -11972,19 +12770,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Back Fur"
+          "Name": "Back Fur",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Front Fur"
+          "Name": "Front Fur",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Forehead and Tail Fur"
+          "Name": "Forehead and Tail Fur",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -12051,19 +12853,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Back Fur"
+          "Name": "Back Fur",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Front Fur"
+          "Name": "Front Fur",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Forehead and Tail Fur"
+          "Name": "Forehead and Tail Fur",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -12093,19 +12899,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Belly and Foot Scales"
+          "Name": "Belly and Foot Scales",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Fins and Wings"
+          "Name": "Fins and Wings",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly Detail"
+          "Name": "Belly Detail",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -12188,7 +12998,18 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Hooves and Facial Markings",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -12358,19 +13179,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "skin"
+          "Name": "skin",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Fur Body Stripe"
+          "Name": "Fur Body Stripe",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "dark stripe"
-        },
-        {
-          "Id": 5,
-          "Name": "Fur"
+          "Name": "dark stripe",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -12534,23 +13354,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Feathers"
-        },
-        {
-          "Id": 3,
-          "Name": "Back Accents"
+          "Name": "Feathers",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spine and Feather Tips"
+          "Name": "Spine and Feather Tips",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Lower Body"
+          "Name": "Lower Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -12698,7 +13518,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main upper"
+          "Name": "Main upper",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Accent accents",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Accents",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Main lower",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -12769,19 +13610,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Back Stripe"
+          "Name": "Back Stripe",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Splotches"
+          "Name": "Splotches",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back Spots"
+          "Name": "Back Spots",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -12895,15 +13740,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Legs Highlight"
+          "Name": "Legs Highlight",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Dark"
+          "Name": "Body Dark",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -12965,7 +13813,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Legs Highlight",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body Dark",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": {
@@ -13044,7 +13908,33 @@
       "Saddle": "Gigadesmodus Saddle",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Wing Membranes",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Horn Tips",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Horn Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Body Highlights",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1450,
         "Stamina": 750,
@@ -13109,15 +13999,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back, Hands and Feet"
+          "Name": "Back, Hands and Feet",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -13215,15 +14108,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Fur Main"
+          "Name": "Fur Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Fur Accent"
+          "Name": "Fur Accent",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -13315,7 +14211,38 @@
       "Saddle": "Gigantoraptor Saddle",
       "SaddleLevel": 69,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Wattle Main",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Wattle and Feather Pattern Main",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Wattle and Feather Accents",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Beak and Limbs",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Feather Highlights",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 770,
         "Stamina": 350,
@@ -13390,7 +14317,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Spine",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Spots and Eyestalks",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Fingers and Eyes",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Main Body and Gloon Balloons",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 150,
         "Stamina": 150,
@@ -13446,7 +14399,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Wings",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Feet and Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Emmissive Glow",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 75,
         "Stamina": 100,
@@ -13496,23 +14470,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Wings"
-        },
-        {
-          "Id": 3,
-          "Name": "Lantern"
+          "Name": "Wings",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Back Stripes"
+          "Name": "Back Stripes",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -13676,7 +14650,33 @@
       "Saddle": "Grand Tortugar Saddle",
       "SaddleLevel": 43,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Spots",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Emissive",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Shell",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1050,
         "Stamina": 260,
@@ -13796,15 +14796,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Wings and Main Body"
+          "Name": "Wings and Main Body",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Fur"
+          "Name": "Fur",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Feather Highlights"
+          "Name": "Feather Highlights",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -13930,7 +14933,7 @@
       "IsVariant": false,
       "VariantOf": "",
       "Saddle": "Helicoprion Saddle",
-      "SaddleLevel": 76,
+      "SaddleLevel": 91,
       "Breeding": null,
       "Paint": [],
       "Stats": {
@@ -14016,19 +15019,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Feet"
+          "Name": "Feet",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -14199,15 +15206,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Highlights and Spots"
+          "Name": "Highlights and Spots",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -14410,15 +15420,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Belly Scales"
+          "Name": "Belly Scales",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Top and Fin Scales"
+          "Name": "Top and Fin Scales",
+          "Asa": false
         }
       ],
       "Stats": null,
@@ -14530,15 +15543,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Feet"
+          "Name": "Feet",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "R2",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "R4",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Face"
+          "Name": "Face",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -14627,7 +15653,23 @@
         "Gestation": 28571.427734,
         "BabyTime": 20833.3333
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Back and Fins",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 275,
         "Stamina": 300,
@@ -14723,15 +15765,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stomach and Accents"
+          "Name": "Stomach and Accents",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -14929,15 +15974,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Paws and Back"
+          "Name": "Paws and Back",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Secondary Fur and Toes",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back Stripes"
+          "Name": "Back Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside and Face"
+          "Name": "Underside and Face",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -15098,19 +16151,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Back and Markings"
+          "Name": "Back and Markings",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Beak"
+          "Name": "Beak",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Feet"
+          "Name": "Feet",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Osteoderms"
+          "Name": "Osteoderms",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -15208,19 +16270,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Top Fins"
+          "Name": "Top Fins",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Top Scales"
+          "Name": "Top Scales",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -15312,15 +16378,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbody"
+          "Name": "Underbody",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -15473,27 +16542,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Plate Base"
+          "Name": "Plate Base",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Spikes"
+          "Name": "Spikes",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Plate Edge"
+          "Name": "Plate Edge",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Top"
+          "Name": "Top",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -15803,7 +16878,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Fins",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Main Stripe",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 40,
         "Stamina": 100,
@@ -15929,15 +17025,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -16293,19 +17392,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Wings"
+          "Name": "Wings",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Fin and Wing Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -16329,15 +17437,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Face, Sides, and Flipper Highlights"
+          "Name": "Face, Sides, and Flipper Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spots and Flipper Edges"
+          "Name": "Spots and Flipper Edges",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -16596,7 +17707,33 @@
       "Saddle": "Lumina Saddle",
       "SaddleLevel": 65,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Wings",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Wing edges",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Back",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 800,
         "Stamina": 650,
@@ -16646,27 +17783,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Wings"
+          "Name": "Wings",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Wings"
+          "Name": "Wings",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Face and Antennae"
+          "Name": "Face and Antennae",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Proboscis and Underside"
+          "Name": "Proboscis and Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -16763,15 +17906,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Spine and Feet"
+          "Name": "Spine and Feet",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -16900,7 +18046,33 @@
       "Saddle": "Maeguana Saddle",
       "SaddleLevel": 19,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "main body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "membrane accents",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "beak",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "back",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 700,
         "Stamina": 450,
@@ -17012,15 +18184,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Vent Tips"
+          "Name": "Vent Tips",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Gradient"
+          "Name": "Gradient",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -17353,7 +18528,28 @@
       "Saddle": "Malwyn Saddle",
       "SaddleLevel": 65,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Skull",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "R4",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Back",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 850,
         "Stamina": 350,
@@ -17418,23 +18614,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Tusks"
+          "Name": "Tusks",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Highlights"
+          "Name": "Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -17531,27 +18732,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Side Highlights"
+          "Name": "Side Highlights",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Facial Highlights"
+          "Name": "Facial Highlights",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Wings Main"
+          "Name": "Wings Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Wing Highlights"
+          "Name": "Wing Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -17649,15 +18856,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spots"
+          "Name": "Spots",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -17826,15 +19036,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Top"
+          "Name": "Top",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18020,15 +19233,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Dark Scales"
+          "Name": "Dark Scales",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Rocks"
+          "Name": "Rocks",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Light Belly"
+          "Name": "Light Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18095,15 +19311,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18206,15 +19425,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Antlers"
+          "Name": "Antlers",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "R5",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18311,15 +19538,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18436,15 +19666,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Face, Appendages, and Sides"
+          "Name": "Face, Appendages, and Sides",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Feathers, Osteoderms, \u0026 Patterning"
+          "Name": "Feathers, Osteoderms, \u0026 Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18541,23 +19774,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Thorax and Sides"
+          "Name": "Thorax and Sides",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "R1",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Rear Legs"
+          "Name": "Rear Legs",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Front Legs"
+          "Name": "Front Legs",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Topside"
+          "Name": "Topside",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18676,7 +19919,28 @@
       "Saddle": "Megaraptor Saddle",
       "SaddleLevel": 60,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Tail Underside",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Stripes and Arms",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Face and Limb Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 350,
         "Stamina": 350,
@@ -18760,11 +20024,13 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Hands and Feet"
+          "Name": "Hands and Feet",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18864,19 +20130,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Accents"
+          "Name": "Accents",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Body Mesh"
+          "Name": "Body Mesh",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Energy"
+          "Name": "Energy",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -18928,19 +20198,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Eye Markings"
+          "Name": "Eye Markings",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back, Lower Limbs and Tail Tip"
+          "Name": "Back, Lower Limbs and Tail Tip",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -19037,23 +20311,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Face"
+          "Name": "Face",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Neck"
+          "Name": "Neck",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly / Wing Bands"
+          "Name": "Belly / Wing Bands",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -19327,23 +20606,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Shell Details"
+          "Name": "Shell Details",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Furred Stripes"
+          "Name": "Furred Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside and Legs"
+          "Name": "Underside and Legs",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -19440,19 +20724,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Spinal Ridge"
+          "Name": "Spinal Ridge",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -19555,19 +20843,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main"
+          "Name": "Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spines"
+          "Name": "Spines",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside / Tail"
+          "Name": "Underside / Tail",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -19764,15 +21056,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Secondary"
+          "Name": "Body Secondary",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Fur Main"
+          "Name": "Fur Main",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -19891,7 +21186,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Muscles",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Hair",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Wings",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Wing Details",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Main Body",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 13500,
         "Stamina": 225,
@@ -20068,7 +21389,38 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Legs",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Claws",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Head and Joints",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Head Details",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Leg Details",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Face Spots",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 20000,
         "Stamina": 100,
@@ -20156,7 +21508,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Head and Wings",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Underside and Patterning",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -20231,23 +21599,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Claws"
+          "Name": "Claws",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Membrane Shading"
+          "Name": "Membrane Shading",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Abdomen and Legs"
+          "Name": "Abdomen and Legs",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Wing Membrane"
+          "Name": "Wing Membrane",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -20335,7 +21708,33 @@
       "Saddle": "Ossidon Saddle",
       "SaddleLevel": 76,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Horn Tips",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Claws",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Skull and Spike Base",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1430,
         "Stamina": 420,
@@ -20400,15 +21799,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Stripes and Highlights"
+          "Name": "Body Stripes and Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -20570,23 +21972,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Crest and Beak"
+          "Name": "Crest and Beak",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Feathers"
+          "Name": "Feathers",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -20748,15 +22155,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Horns"
+          "Name": "Horns",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Hooves and Facial Markings"
+          "Name": "Hooves and Facial Markings",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -20849,19 +22259,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Spikes and Claws"
+          "Name": "Spikes and Claws",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Beak and Plates"
+          "Name": "Beak and Plates",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Accent"
+          "Name": "Body Accent",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -20958,19 +22372,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Spikes and Horns"
+          "Name": "Spikes and Horns",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Face, Legs, and Underside"
+          "Name": "Face, Legs, and Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21062,7 +22480,38 @@
       "Saddle": "Palaeoctopus Saddle",
       "SaddleLevel": 65,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Tentacle Underside",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Glow",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Around Beak",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Tips",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Stripes",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 1050,
         "Stamina": 400,
@@ -21127,15 +22576,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21273,27 +22725,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Bill"
+          "Name": "Bill",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Beak and Frill"
+          "Name": "Beak and Frill",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Frill Edge"
+          "Name": "Frill Edge",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Crest"
+          "Name": "Crest",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21381,7 +22839,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Face",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Highlights",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 150,
         "Stamina": 150,
@@ -21465,23 +22944,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
-        },
-        {
-          "Id": 1,
-          "Name": "Quill"
-        },
-        {
-          "Id": 2,
-          "Name": "Underside"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back Fur"
+          "Name": "Back Fur",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Limb Highlights"
+          "Name": "Limb Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21596,11 +23070,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Feathers"
+          "Name": "Feathers",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "R4",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Skin and Wing/Tail Tips"
+          "Name": "Skin and Wing/Tail Tips",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21692,15 +23173,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spots"
+          "Name": "Spots",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Smudges"
+          "Name": "Smudges",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21791,19 +23275,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Beak and Feet"
+          "Name": "Beak and Feet",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Fire",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Feather Highlights"
+          "Name": "Feather Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbelly and Wing Highlights"
+          "Name": "Underbelly and Wing Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -21849,23 +23342,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Fin Base"
+          "Name": "Fin Base",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Eye Area and Stripes"
+          "Name": "Eye Area and Stripes",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Fins"
+          "Name": "Fins",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Patterning"
+          "Name": "Patterning",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -22259,7 +23757,28 @@
         "Gestation": 28571.427734,
         "BabyTime": 41666.6667
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Facial Fins",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Back",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Belly",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 2400,
         "Stamina": 800,
@@ -22355,27 +23874,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Fins and Wings"
+          "Name": "Fins and Wings",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Wing Detail and Fins"
+          "Name": "Wing Detail and Fins",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Detail"
+          "Name": "Body Detail",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -22443,15 +23968,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back Stripes"
+          "Name": "Back Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Inner Ear, Snout, Belly and Appendages"
+          "Name": "Inner Ear, Snout, Belly and Appendages",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -22546,7 +24074,33 @@
         "Gestation": 0,
         "BabyTime": 13333.3328125
       },
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Face, Crest and Hands",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Inner Crest",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Wing Membrane",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 210,
         "Stamina": 150,
@@ -22642,27 +24196,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Plate Edges"
+          "Name": "Plate Edges",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Claw Stripes, Barb Patterning, and Body Joints"
+          "Name": "Claw Stripes, Barb Patterning, and Body Joints",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Limb Joints"
+          "Name": "Limb Joints",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Plates"
+          "Name": "Plates",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Legs"
+          "Name": "Legs",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -22803,15 +24363,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -22981,7 +24544,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 2,
+          "Name": "Body Color",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Flame",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body Accent",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 600,
         "Stamina": 350,
@@ -23090,27 +24669,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Wing Membrane"
+          "Name": "Wing Membrane",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Crest"
+          "Name": "Crest",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Freckles"
+          "Name": "Freckles",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Beak"
+          "Name": "Beak",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Feathers"
+          "Name": "Body Feathers",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -23759,23 +25344,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Accent"
+          "Name": "Body Accent",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Feather Tips"
+          "Name": "Feather Tips",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "R2",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Body and Feathers"
+          "Name": "Body and Feathers",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -23892,15 +25487,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Top Highlights"
+          "Name": "Top Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -24068,15 +25666,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -24141,7 +25747,28 @@
       "Saddle": "Megaloceros Saddle",
       "SaddleLevel": 30,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Antlers",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Nose",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Patterning",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -24590,19 +26217,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "R2",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "R3",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -24719,27 +26360,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Body Stripes"
+          "Name": "Body Stripes",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Eyes"
+          "Name": "Eyes",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripe Highlights"
+          "Name": "Stripe Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Leg Highlights"
+          "Name": "Leg Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -24870,23 +26517,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Feathers Main"
+          "Name": "Feathers Main",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Back Highlights",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Feather Highlights"
+          "Name": "Feather Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Scales"
+          "Name": "Scales",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -24947,7 +26604,8 @@
       "Paint": [
         {
           "Id": 1,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -25351,15 +27009,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Scales"
+          "Name": "Scales",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underbelly"
+          "Name": "Underbelly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -25516,15 +27177,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Mane and Face"
+          "Name": "Mane and Face",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -25616,15 +27280,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "R1",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "R2",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Lower Fins"
+          "Name": "Lower Fins",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Lower Body and Fin Tips"
+          "Name": "Lower Body and Fin Tips",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -25695,23 +27372,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Stripe, Face and Tail"
+          "Name": "Stripe, Face and Tail",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Snout and Tail Tip"
+          "Name": "Snout and Tail Tip",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Plates"
+          "Name": "Plates",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Accent"
+          "Name": "Body Accent",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -25867,27 +27549,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Thruster Highlights"
+          "Name": "Thruster Highlights",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Thruster Highlights"
+          "Name": "Thruster Highlights",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Outer Body Highlights"
+          "Name": "Outer Body Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Energy"
+          "Name": "Energy",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -25999,19 +27687,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Wings"
+          "Name": "Wings",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Underbelly and Highlights"
+          "Name": "Underbelly and Highlights",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -26293,7 +27985,28 @@
       "Saddle": "Shastasaurus Submarine Saddle",
       "SaddleLevel": 100,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Back",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Underside",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Accents",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Stripes",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 4500,
         "Stamina": 300,
@@ -26358,23 +28071,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Stripes"
-        },
-        {
-          "Id": 3,
-          "Name": "Lantern"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Feet"
+          "Name": "Feet",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -26545,7 +28258,38 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Unknown",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Unknown",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Unknown",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Unknown",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Unknown",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Unknown",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 500,
         "Stamina": 1000,
@@ -26902,19 +28646,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Wing Highlights"
+          "Name": "Wing Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Lower"
+          "Name": "Body Lower",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -27022,7 +28770,28 @@
       "Saddle": "Solwyn Saddle",
       "SaddleLevel": 58,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Feet, Tail, and Face",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Neck Fur",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Fur",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 650,
         "Stamina": 400,
@@ -27087,19 +28856,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Sail Edge"
+          "Name": "Sail Edge",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Face, Tail, Inner Sail, and Frill"
+          "Name": "Face, Tail, Inner Sail, and Frill",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -27854,23 +29627,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Wing and Sail Markings"
+          "Name": "Wing and Sail Markings",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Wings and Sail"
+          "Name": "Wings and Sail",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back, Beak and Sail Spines"
+          "Name": "Back, Beak and Sail Spines",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Sail and Throat"
+          "Name": "Sail and Throat",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -27959,7 +29737,38 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "UnderBelly",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Main Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Head Main",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Emissive",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -27987,27 +29796,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Internals"
+          "Name": "Internals",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Limbs"
+          "Name": "Limbs",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Highlights and Neck"
+          "Name": "Highlights and Neck",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Head"
+          "Name": "Head",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Emissive"
+          "Name": "Emissive",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -28037,27 +29852,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Metal Main"
+          "Name": "Metal Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "metal accents"
+          "Name": "metal accents",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "metal secondary"
+          "Name": "metal secondary",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "body main"
+          "Name": "body main",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "metal tertiary"
+          "Name": "metal tertiary",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Emissive"
+          "Name": "Emissive",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -28087,23 +29908,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Dark Muted"
+          "Name": "Dark Muted",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Light All,"
+          "Name": "Light All,",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "R2",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "All Muted"
+          "Name": "All Muted",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Light All"
+          "Name": "Light All",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Emissive"
+          "Name": "Emissive",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -28133,27 +29964,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Head Main"
+          "Name": "Head Main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Spine"
+          "Name": "Spine",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Body Main"
+          "Name": "Body Main",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Internals"
+          "Name": "Internals",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Emissives"
+          "Name": "Emissives",
+          "Asa": true
         }
       ],
       "Stats": null,
@@ -28274,15 +30111,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Feathers"
+          "Name": "Feathers",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly/Wings Accent"
+          "Name": "Belly/Wings Accent",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Beak, Skin and Legs"
+          "Name": "Beak, Skin and Legs",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -28586,23 +30426,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Mid-section and Legs"
+          "Name": "Mid-section and Legs",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Quills"
+          "Name": "Quills",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Top"
+          "Name": "Top",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -29127,15 +30972,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Stripes"
+          "Name": "Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Stomach"
+          "Name": "Stomach",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -29269,7 +31117,33 @@
       "Saddle": "Tidepup Saddle",
       "SaddleLevel": 36,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Fins",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Fin Pattern",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Body Pattern",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body Spots",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 850,
         "Stamina": 500,
@@ -29394,27 +31268,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Frill Middle Line 1"
+          "Name": "Frill Middle Line 1",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Frill Middle Line 2"
+          "Name": "Frill Middle Line 2",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Frill Middle Line 3"
+          "Name": "Frill Middle Line 3",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Accent and Inner Frill"
+          "Name": "Body Accent and Inner Frill",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Outer Frill"
+          "Name": "Outer Frill",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -29568,15 +31448,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "R3",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -29654,23 +31542,28 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "main"
+          "Name": "main",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "top"
+          "Name": "top",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "scale edges"
+          "Name": "scale edges",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "back"
+          "Name": "back",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "belly"
+          "Name": "belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -29849,15 +31742,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Body Highlights and Feathers"
+          "Name": "Body Highlights and Feathers",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -30011,19 +31907,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Highlights"
+          "Name": "Body Highlights",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Tentacle Highlights"
+          "Name": "Tentacle Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Tentacles"
+          "Name": "Tentacles",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -30182,7 +32082,38 @@
       "Saddle": "Umbra Saddle",
       "SaddleLevel": 65,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Top",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Wings",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Unknown",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Back",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 800,
         "Stamina": 650,
@@ -30323,7 +32254,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Back Fins (Inner)",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Back Fins (Outer)",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Face and Tail",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Back",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 200,
         "Stamina": 260,
@@ -30407,27 +32364,33 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body Lower"
+          "Name": "Body Lower",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Claws"
+          "Name": "Claws",
+          "Asa": true
         },
         {
           "Id": 2,
-          "Name": "Armor Plating Highlights"
+          "Name": "Armor Plating Highlights",
+          "Asa": true
         },
         {
           "Id": 3,
-          "Name": "Spikes Base"
+          "Name": "Spikes Base",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Belly"
+          "Name": "Belly",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Body Upper"
+          "Name": "Body Upper",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -31492,19 +33455,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Body"
+          "Name": "Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Head Highlights"
+          "Name": "Head Highlights",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Feather Tips"
+          "Name": "Feather Tips",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -31613,7 +33580,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Head and Wings",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Underside and Patterning",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -31726,19 +33709,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Back"
+          "Name": "Back",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Underside"
+          "Name": "Underside",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Horn"
+          "Name": "Horn",
+          "Asa": true
         }
       ],
       "Stats": {
@@ -31888,7 +33875,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Tummy",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Main Stripes",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Spine",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Face Stripes",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Secondary Stripes",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -31957,7 +33970,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Spots",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Underside",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Secondary Patterning",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -32026,7 +34060,23 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Highlights",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "UnderBelly/Fur",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Main Body",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -32045,7 +34095,38 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Crest",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Underside Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Main Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Secondary Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Face Patterning",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Crest Stripe",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -32064,7 +34145,28 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 2,
+          "Name": "Stripes",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Under the Scales",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Scale Patterning",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -32108,7 +34210,18 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Stripes and Belly",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Back and Fins",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -32490,7 +34603,33 @@
       "Saddle": "",
       "SaddleLevel": 0,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Main Body",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Base of the Fins",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "Top and Bottom Stripes",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Edge of the Fins",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body Stripes",
+          "Asa": true
+        }
+      ],
       "Stats": null,
       "Raising": null,
       "Taming": null
@@ -32551,7 +34690,7 @@
       "IsVariant": false,
       "VariantOf": "",
       "Saddle": "Xiphactinus Saddle",
-      "SaddleLevel": 60,
+      "SaddleLevel": 55,
       "Breeding": null,
       "Paint": [],
       "Stats": {
@@ -32612,15 +34751,18 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Hair"
+          "Name": "Hair",
+          "Asa": false
         },
         {
           "Id": 4,
-          "Name": "Hair Patterning"
+          "Name": "Hair Patterning",
+          "Asa": false
         },
         {
           "Id": 5,
-          "Name": "Skin"
+          "Name": "Skin",
+          "Asa": false
         }
       ],
       "Stats": {
@@ -32663,7 +34805,38 @@
       "Saddle": "Yi Ling Saddle",
       "SaddleLevel": 50,
       "Breeding": null,
-      "Paint": [],
+      "Paint": [
+        {
+          "Id": 0,
+          "Name": "Body Main",
+          "Asa": true
+        },
+        {
+          "Id": 1,
+          "Name": "Wings Main",
+          "Asa": true
+        },
+        {
+          "Id": 2,
+          "Name": "R2",
+          "Asa": true
+        },
+        {
+          "Id": 3,
+          "Name": "Wing Accents",
+          "Asa": true
+        },
+        {
+          "Id": 4,
+          "Name": "Belly",
+          "Asa": true
+        },
+        {
+          "Id": 5,
+          "Name": "Body Accent",
+          "Asa": true
+        }
+      ],
       "Stats": {
         "Health": 325,
         "Stamina": 300,
@@ -32747,19 +34920,23 @@
       "Paint": [
         {
           "Id": 0,
-          "Name": "Main Body"
+          "Name": "Main Body",
+          "Asa": true
         },
         {
           "Id": 1,
-          "Name": "Facial Crest"
+          "Name": "Facial Crest",
+          "Asa": true
         },
         {
           "Id": 4,
-          "Name": "Facial Highlights and Stripes"
+          "Name": "Facial Highlights and Stripes",
+          "Asa": true
         },
         {
           "Id": 5,
-          "Name": "Hands and Feet"
+          "Name": "Hands and Feet",
+          "Asa": true
         }
       ],
       "Stats": {
