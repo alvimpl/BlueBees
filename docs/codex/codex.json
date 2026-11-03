@@ -1,5 +1,5 @@
 {
-  "GeneratedUtc": "2026-11-02T20:10:18.6781231Z",
+  "GeneratedUtc": "2026-11-03T00:31:06.320113Z",
   "Source": "ARK Wiki (ark.wiki.gg)",
   "License": "CC BY-NC-SA 4.0",
   "Creatures": [
@@ -23276,27 +23276,22 @@
         {
           "Id": 0,
           "Name": "Main Body",
-          "Asa": true
+          "Asa": false
         },
         {
           "Id": 1,
           "Name": "Beak and Feet",
-          "Asa": true
-        },
-        {
-          "Id": 3,
-          "Name": "Fire",
-          "Asa": true
+          "Asa": false
         },
         {
           "Id": 4,
           "Name": "Feather Highlights",
-          "Asa": true
+          "Asa": false
         },
         {
           "Id": 5,
           "Name": "Underbelly and Wing Highlights",
-          "Asa": true
+          "Asa": false
         }
       ],
       "Stats": {
