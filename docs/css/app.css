@@ -322,7 +322,7 @@ td .grupo img { width: 18px; height: 18px; margin-right: -4px; object-fit: conta
     /* O nome tem teto: sem ele, numa tela larga a coluna engolia o espaco e Dia
        e "No ar ha" ficavam espremidos e grudados. Mapa e Cluster dividem a sobra;
        as colunas de numero tem largura fixa. */
-    grid-template-columns: 28px 96px minmax(220px, 1.8fr) minmax(110px, 1fr) 56px 84px 72px 96px 92px 80px minmax(110px, 1fr);
+    grid-template-columns: 28px 96px minmax(220px, 1.8fr) minmax(110px, 1fr) 56px 84px 72px 96px 92px 80px minmax(110px, 1fr) 64px;
     align-items: center;
     height: 34px;
     padding: 0 12px 0 8px;
@@ -441,6 +441,24 @@ button.baixar { border: 0; font-family: inherit; cursor: pointer; }
 .instalar-fechar { background: none; border: 0; color: var(--fg-dim); font-size: 18px; cursor: pointer; }
 .instalar-nota { color: var(--fg-dim); font-size: 13px; }
 
+/* ---------- servidores: atualizar agora, intervalo e mods na ficha */
+.filtros select.intervalo { max-width: none; flex: none; }
+.dados .mods { word-break: break-word; white-space: normal; }
+
+/* ---------- ajuda do Codex: o (i) do desktop, um so na barra das sub-abas */
+/* Grudado na direita: no celular as 8 sub-abas rolam de lado, e o "?" no fim
+   da fila ficaria fora da tela. */
+.sub-abas .ajuda-botao { margin-left: auto; font-weight: 700; position: sticky; right: 0; background: var(--bg); }
+.ajuda { position: relative; margin: 8px 12px 0; padding: 10px 36px 10px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; font-size: 13px; line-height: 1.5; }
+.ajuda p { margin: 4px 0 0; color: var(--fg-dim); }
+.ajuda .instalar-fechar { position: absolute; top: 6px; right: 8px; }
+
+/* ---------- dossie da criatura, sobre a ficha */
+.ficha > .botao { margin: 2px 0 10px; }
+.dossie { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; width: min(1200px, 100%); max-height: 100%; overflow-y: auto; }
+.dossie img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.dossie .nota { margin: 8px 0 0; }
+
 /* ---------- pacote de artes */
 .pacote { max-width: 960px; }
 .pacote h3 .contagem { font-weight: 400; margin-left: 6px; }
@@ -498,7 +516,7 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
     .srv.com-ficha .ficha { display: block; }
     .srv-linha { grid-template-columns: 24px 20px minmax(0, 1fr) 54px 72px 44px; font-size: 12px; }
     .srv-linha .col-mapa, .srv-linha .col-modo, .srv-linha .col-dia, .srv-linha .col-cluster,
-    .srv-linha .col-dura { display: none; }
+    .srv-linha .col-dura, .srv-linha .col-visto { display: none; }
     .srv-linha .col-status { font-size: 0; }
     .filtros select { flex: 1 1 40%; max-width: none; min-width: 0; }
     .topo { flex-wrap: wrap; row-gap: 4px; }
@@ -513,7 +531,7 @@ a.botao { display: inline-block; text-decoration: none; margin-top: 6px; }
 @media (max-width: 1100px) and (min-width: 761px) {
     .srv { grid-template-columns: 1fr 280px; }
     .srv-linha { grid-template-columns: 28px 92px minmax(160px, 1.6fr) minmax(90px, 1fr) 48px 76px 92px 64px; gap: 10px; }
-    .srv-linha .col-cluster, .srv-linha .col-dia, .srv-linha .col-dura { display: none; }
+    .srv-linha .col-cluster, .srv-linha .col-dia, .srv-linha .col-dura, .srv-linha .col-visto { display: none; }
     .arte-controles { grid-template-columns: minmax(0, 1fr); }
 }
 
