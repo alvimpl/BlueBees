@@ -8,19 +8,26 @@
     <!-- No GitHub Pages o site mora em /BlueBees/; o publish.cmd troca esta linha. -->
     <base href="/BlueBees/" />
     <link rel="icon" type="image/png" href="bee.png" />
-    <!-- Instalavel na tela inicial do celular, sem APK. Sem service worker de
-         proposito: cache offline seguraria versao velha do site. -->
+    <!-- Instalavel na tela inicial do celular, sem loja (PWA, 15/11/2026). O
+         service worker (sw.js, registrado pelo js/app.js) busca o index.html
+         sempre na rede, para nao segurar versao velha: ver o topo do sw.js. -->
     <link rel="manifest" href="manifest.webmanifest" />
     <meta name="theme-color" content="#111C2E" />
-    <link href="_framework/dotnet.bxkvp8ndnx.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-UfsktD1DvR6IwGXQnvoULZbDOQ4d9rhGIJ8/AxL5QO0=" />
-    <!-- O "?v=20261102213446" o publish.cmd web troca pelo carimbo da publicacao: sem ele o
+    <!-- O iPhone ignora o manifesto para icone e modo app: precisa destes. -->
+    <link rel="apple-touch-icon" href="icones/icone-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Blue Bees" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link href="_framework/dotnet.59sf0cel80.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-yQyxmOQ1VahgGbyChya/iy5SOAgu9Y9EqEJAq1lsn8o=" />
+    <!-- O "?v=20261115141841" o publish.cmd web troca pelo carimbo da publicacao: sem ele o
          navegador guardava o css velho junto com o site novo, e a grade do
          catalogo saiu sem estilo ate um Ctrl+F5 (01/11). -->
-    <link rel="stylesheet" href="css/app.css?v=20261102213446" />
+    <link rel="stylesheet" href="css/app.css?v=20261115141841" />
     <script type="importmap">{
   "imports": {
     "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.w3qd1tpl0e.js",
-    "./_framework/dotnet.js": "./_framework/dotnet.bxkvp8ndnx.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.59sf0cel80.js",
     "./_framework/dotnet.native.js": "./_framework/dotnet.native.b6l13xorvf.js",
     "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.v06hirbjsv.js"
   },
@@ -28,8 +35,8 @@
   "integrity": {
     "./_framework/blazor.webassembly.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
     "./_framework/blazor.webassembly.w3qd1tpl0e.js": "sha256-lDXsDYFgm62F+YUvxES7IOTCXYpiHpU3uR45YdC6mq4=",
-    "./_framework/dotnet.bxkvp8ndnx.js": "sha256-UfsktD1DvR6IwGXQnvoULZbDOQ4d9rhGIJ8/AxL5QO0=",
-    "./_framework/dotnet.js": "sha256-UfsktD1DvR6IwGXQnvoULZbDOQ4d9rhGIJ8/AxL5QO0=",
+    "./_framework/dotnet.59sf0cel80.js": "sha256-yQyxmOQ1VahgGbyChya/iy5SOAgu9Y9EqEJAq1lsn8o=",
+    "./_framework/dotnet.js": "sha256-yQyxmOQ1VahgGbyChya/iy5SOAgu9Y9EqEJAq1lsn8o=",
     "./_framework/dotnet.native.b6l13xorvf.js": "sha256-jZddobLBM2C3lQhYQ61xSQJ/WqD3eQCO3RzoHGaOjx0=",
     "./_framework/dotnet.native.js": "sha256-jZddobLBM2C3lQhYQ61xSQJ/WqD3eQCO3RzoHGaOjx0=",
     "./_framework/dotnet.runtime.js": "sha256-QbnqrZGHtGq7wudS17/AYEPpH9JkphrsyVllD6JHmds=",
@@ -51,7 +58,8 @@
         <a href="." class="reload">↻</a>
         <span class="dismiss">🗙</span>
     </div>
-    <script src="js/arte.js?v=20261102213446"></script>
+    <script src="js/app.js?v=20261115141841"></script>
+    <script src="js/arte.js?v=20261115141841"></script>
     <script src="_framework/blazor.webassembly.w3qd1tpl0e.js"></script>
 </body>
 
